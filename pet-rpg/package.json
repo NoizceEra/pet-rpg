@@ -1,0 +1,17 @@
+{
+  "name": "moltgotchi",
+  "version": "0.2.0",
+  "description": "🐾 Moltgotchi - Tamagotchi-style pet RPG for autonomous agents",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site deployment'"
+  },
+  "keywords": [
+    "pet",
+    "rpg",
+    "game",
+    "moltgotchi",
+    "tamagotchi"
+  ]
+}

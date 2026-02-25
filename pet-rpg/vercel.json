@@ -1,8 +1,7 @@
 {
   "version": 2,
-  "name": "moltgotchi",
   "public": true,
-  "buildCommand": "echo 'Static site - no build needed'",
+  "buildCommand": "echo 'Static assets only'",
   "outputDirectory": "website",
   "cleanUrls": true,
   "trailingSlash": false,

@@ -1,0 +1,13 @@
+requirements.txt
+api/
+core/
+scripts/
+*.py
+pyproject.toml
+setup.py
+Dockerfile
+docker-compose.yml
+venv/
+__pycache__/
+.env
+.env.local
