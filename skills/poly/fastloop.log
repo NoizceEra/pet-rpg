@@ -80,3 +80,7 @@
 🔍 Discovering BTC fast markets...
 [2026-02-25 19:00:05]   Found 13 active fast markets
 [2026-02-25 19:00:05]   No fast_markets with >60s remaining
+[2026-02-25 23:16:46] Simmer FastLoop Trading Skill
+[2026-02-25 23:16:46] ==================================================
+[2026-02-25 23:16:46] 
+  [DRY RUN] No trades will be executed. Use --live to enable trading.

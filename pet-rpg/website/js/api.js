@@ -169,6 +169,12 @@ class APIClient {
 }
 
 // Initialize global API client
-const api = new APIClient(API_BASE_URL);
+const api = new APIClient(API_BASE_URL || 'http://localhost:5000/api');
 
-console.log('[APIClient] Initialized with', API_BASE_URL);
+// Track if API is available
+api.isAvailable = API_BASE_URL !== null;
+
+console.log('[APIClient] Initialized with', API_BASE_URL || 'DEMO MODE (no API)');
+if (!api.isAvailable) {
+  console.log('[APIClient] Running in DEMO mode - API calls will be simulated');
+}

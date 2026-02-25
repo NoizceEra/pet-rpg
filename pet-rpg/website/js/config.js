@@ -48,10 +48,10 @@ const API_BASE_URL = (() => {
     return metaTag.getAttribute('content');
   }
   
-  // Fallback to localhost (safer than hardcoded remote URL)
-  console.warn('[MoltGotchi] No API URL configured! Using localhost fallback.');
-  console.warn('[MoltGotchi] Set via: VITE_API_URL env var, window.MOLTGOTCHI_API_URL, or meta tag');
-  return 'http://localhost:5000/api';
+  // Production fallback: no API URL = run in demo mode
+  console.warn('[MoltGotchi] No API URL configured! Running in DEMO mode.');
+  console.warn('[MoltGotchi] Set API URL via: VITE_API_URL env var, window.MOLTGOTCHI_API_URL, or meta tag');
+  return null; // null = demo mode (no API calls)
 })();
 
 console.log(`[MoltGotchi] Running in ${isLocalhost ? 'LOCAL' : 'PRODUCTION'} mode`);

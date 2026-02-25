@@ -197,14 +197,49 @@ async function handleCreatePet() {
     return;
   }
   
+  if (!species) {
+    showNotification('Please select a species', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
-    const pet = await api.createPet(gameState.userId, name, species);
+    let pet;
+    
+    if (api.isAvailable) {
+      // Call API
+      pet = await api.createPet(gameState.userId, name, species);
+    } else {
+      // Demo mode - create a mock pet
+      pet = {
+        owner_id: gameState.userId,
+        name: name,
+        species: species,
+        level: 1,
+        exp: 0,
+        hp: 30,
+        max_hp: 30,
+        hunger: 50,
+        happiness: 75,
+        stage: 'EGG',
+        strength: 10,
+        speed: 10,
+        intelligence: 10,
+      };
+      localStorage.setItem('moltgotchi_pet_demo', JSON.stringify(pet));
+    }
+    
     gameState.setPet(pet);
     renderStatus(pet);
     showPetDashboard();
     showNotification(`${name} has hatched! 🥚`, 'success');
+    
+    if (!api.isAvailable) {
+      showNotification('💡 Demo mode: Deploy API on Render to save pets!', 'info');
+    }
   } catch (error) {
+    console.error('[Pet] Create failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
     gameState.setError(error);
   } finally {
     setLoading(false);
@@ -212,52 +247,116 @@ async function handleCreatePet() {
 }
 
 async function handleFeed() {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
-    const pet = await api.feedPet(gameState.userId);
+    let pet;
+    if (api.isAvailable) {
+      pet = await api.feedPet(gameState.userId);
+    } else {
+      // Demo mode
+      pet = gameState.getPet();
+      pet.hunger = Math.max(0, pet.hunger - 15);
+      pet.hp = Math.min(pet.max_hp, pet.hp + 5);
+      localStorage.setItem('moltgotchi_pet_demo', JSON.stringify(pet));
+    }
+    gameState.setPet(pet);
     renderStatus(pet);
     showNotification('Fed ' + pet.name + '! 🍖', 'success');
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Pet] Feed failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }
 }
 
 async function handlePlay() {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
-    const pet = await api.playPet(gameState.userId);
+    let pet;
+    if (api.isAvailable) {
+      pet = await api.playPet(gameState.userId);
+    } else {
+      // Demo mode
+      pet = gameState.getPet();
+      pet.happiness = Math.min(100, pet.happiness + 20);
+      pet.hp = Math.min(pet.max_hp, pet.hp + 5);
+      localStorage.setItem('moltgotchi_pet_demo', JSON.stringify(pet));
+    }
+    gameState.setPet(pet);
     renderStatus(pet);
     showNotification(pet.name + ' had fun! 🎾', 'success');
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Pet] Play failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }
 }
 
 async function handleTrain(stat) {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
-    const pet = await api.trainPet(gameState.userId, stat);
+    let pet;
+    if (api.isAvailable) {
+      pet = await api.trainPet(gameState.userId, stat);
+    } else {
+      // Demo mode
+      pet = gameState.getPet();
+      pet[stat] = (pet[stat] || 10) + 2;
+      pet.exp = (pet.exp || 0) + 10;
+      localStorage.setItem('moltgotchi_pet_demo', JSON.stringify(pet));
+    }
+    gameState.setPet(pet);
     renderStatus(pet);
     showNotification(`Trained ${STAT_LABELS[stat]}! 💪`, 'success');
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Pet] Train failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }
 }
 
 async function handleRest() {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
-    const pet = await api.restPet(gameState.userId);
+    let pet;
+    if (api.isAvailable) {
+      pet = await api.restPet(gameState.userId);
+    } else {
+      // Demo mode
+      pet = gameState.getPet();
+      pet.hunger = Math.max(0, pet.hunger - 30);
+      pet.happiness = Math.min(100, pet.happiness + 20);
+      localStorage.setItem('moltgotchi_pet_demo', JSON.stringify(pet));
+    }
+    gameState.setPet(pet);
     renderStatus(pet);
     showNotification(pet.name + ' is rested! 😴', 'success');
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Pet] Rest failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }
@@ -268,6 +367,16 @@ async function handleRest() {
 // ─────────────────────────────────────────────────────────────────────
 
 async function handleBattle(opponentId, wager = 0) {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
+  if (!api.isAvailable) {
+    showNotification('💡 Battles require API. Deploy Render to enable!', 'warning');
+    return;
+  }
+  
   if (!opponentId) {
     showNotification('Select an opponent!', 'warning');
     return;
@@ -285,11 +394,13 @@ async function handleBattle(opponentId, wager = 0) {
     
     // Refresh pet and battles
     const pet = await api.getPet(gameState.userId);
+    gameState.setPet(pet);
     renderStatus(pet);
-    refreshBattles();
-    refreshLeaderboard();
+    await refreshBattles();
+    await refreshLeaderboard();
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Battle] Failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }
@@ -301,35 +412,61 @@ async function handleBattle(opponentId, wager = 0) {
 
 async function refreshLeaderboard() {
   try {
+    if (!api.isAvailable) {
+      console.log('[UI] Leaderboard unavailable in demo mode');
+      renderLeaderboard([]);
+      return;
+    }
+    
     const pets = await api.getLeaderboard(UI_CONFIG.LEADERBOARD_LIMIT);
     renderLeaderboard(pets);
   } catch (error) {
-    console.error('Failed to load leaderboard:', error);
+    console.error('[UI] Failed to load leaderboard:', error);
+    renderLeaderboard([]);
   }
 }
 
 async function refreshBattles() {
   try {
+    if (!api.isAvailable) {
+      console.log('[UI] Battles unavailable in demo mode');
+      renderBattles([]);
+      return;
+    }
+    
     const battles = await api.getBattles(gameState.userId, UI_CONFIG.BATTLES_PER_PAGE);
     renderBattles(battles);
   } catch (error) {
-    console.error('Failed to load battles:', error);
+    console.error('[UI] Failed to load battles:', error);
+    renderBattles([]);
   }
 }
 
 async function handleEvolution() {
+  if (!gameState.getPet()) {
+    showNotification('Create a pet first!', 'warning');
+    return;
+  }
+  
+  if (!api.isAvailable) {
+    showNotification('💡 Evolution requires API. Deploy Render to enable!', 'warning');
+    return;
+  }
+  
   setLoading(true);
   try {
     const result = await api.checkEvolution(gameState.userId);
     if (result.evolved) {
       showNotification('Evolution! ✨', 'success');
       const pet = await api.getPet(gameState.userId);
+      gameState.setPet(pet);
       renderStatus(pet);
     } else {
-      showNotification('Not ready to evolve yet', 'info');
+      showNotification('Not ready to evolve yet. Keep training!', 'info');
     }
   } catch (error) {
-    gameState.setError(error);
+    console.error('[Pet] Evolution failed:', error);
+    showNotification(`❌ Error: ${error.message}`, 'error');
   } finally {
     setLoading(false);
   }

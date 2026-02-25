@@ -10,30 +10,57 @@
 async function initializeApp() {
   console.log('[App] Initializing MoltGotchi...');
   
+  // Populate species dropdown
+  populateSpeciesDropdown();
+  
+  // Check if API is configured
+  if (!api.isAvailable) {
+    console.log('[App] Running in DEMO mode - API not configured');
+    gameState.setOnline(false);
+    showNotification('🎮 DEMO MODE: Create/edit pets locally. Deploy Render API to sync!', 'info');
+    
+    // Try to load demo pet
+    const demoPetJson = localStorage.getItem('moltgotchi_pet_demo');
+    if (demoPetJson) {
+      try {
+        const pet = JSON.parse(demoPetJson);
+        gameState.setPet(pet);
+        renderStatus(pet);
+        showPetDashboard();
+        console.log('[App] Loaded demo pet:', pet.name);
+      } catch (e) {
+        showCreatePetUI();
+      }
+    } else {
+      showCreatePetUI();
+    }
+    return;
+  }
+  
   // Check API health
   try {
     await api.getHealth();
     gameState.setOnline(true);
+    console.log('[App] API is online');
   } catch (error) {
     console.error('[App] API health check failed:', error);
     gameState.setOnline(false);
-    showNotification('⚠️ API may be offline. Some features unavailable.', 'warning');
+    showNotification('⚠️ API offline. Some features unavailable.', 'warning');
   }
-  
-  // Populate species dropdown
-  populateSpeciesDropdown();
   
   // Try to load existing pet
   try {
     const pet = await api.getPet(gameState.userId);
     if (pet) {
+      gameState.setPet(pet);
       renderStatus(pet);
       showPetDashboard();
-      await refreshLeaderboard();
-      await refreshBattles();
       
-      // Start auto-refresh timers
-      startAutoRefresh();
+      if (gameState.getOnline()) {
+        await refreshLeaderboard().catch(console.error);
+        await refreshBattles().catch(console.error);
+        startAutoRefresh();
+      }
     } else {
       showCreatePetUI();
     }
