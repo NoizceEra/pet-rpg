@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-10T15:21:41.566644",
+  "market": "Will Alexander Gaasserud be the Republican nominee for Senate in West Virginia?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 40,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.0155
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-10T22:52:28.695209",
+  "market": "Will Will McBride win the 2026 Colorado Governor Republican primary election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.019
+  }
+}

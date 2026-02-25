@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-10T19:39:52.623764",
+  "market": "Will Analilia Mejia be the Democratic nominee for the NJ-11 special election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "No",
+    "price": 0.019
+  }
+}

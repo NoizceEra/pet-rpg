@@ -1,0 +1,178 @@
+{
+  "fetched_at": "2026-02-17T09:21:12.190937",
+  "market_count": 13,
+  "markets": [
+    {
+      "market_id": "fed-decision-in-march-885",
+      "title": "Yes1%",
+      "url": "https://polymarket.com/event/fed-decision-in-march-885",
+      "probabilities": [
+        1.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 1.0,
+      "fetched_at": "2026-02-17T09:21:12.185265"
+    },
+    {
+      "market_id": "what-price-will-bitcoin-hit-in-february-2026",
+      "title": "Yes3%",
+      "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026",
+      "probabilities": [
+        3.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 3.0,
+      "fetched_at": "2026-02-17T09:21:12.185715"
+    },
+    {
+      "market_id": "us-strikes-iran-by",
+      "title": "Yes14%",
+      "url": "https://polymarket.com/event/us-strikes-iran-by",
+      "probabilities": [
+        14.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 14.0,
+      "fetched_at": "2026-02-17T09:21:12.186288"
+    },
+    {
+      "market_id": "elon-musk-of-tweets-february-10-february-17",
+      "title": "Yes10%",
+      "url": "https://polymarket.com/event/elon-musk-of-tweets-february-10-february-17",
+      "probabilities": [
+        10.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 10.0,
+      "fetched_at": "2026-02-17T09:21:12.186753"
+    },
+    {
+      "market_id": "cs2-faze-ast10-2026-02-17",
+      "title": "FaZe63%Astralis38%",
+      "url": "https://polymarket.com/event/cs2-faze-ast10-2026-02-17",
+      "probabilities": [
+        63.0,
+        38.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 2,
+      "prob_sum": 101.0,
+      "fetched_at": "2026-02-17T09:21:12.187178"
+    },
+    {
+      "market_id": "lol-th-g2-2026-02-17",
+      "title": "Team Heretics22%G2 Esports79%",
+      "url": "https://polymarket.com/event/lol-th-g2-2026-02-17",
+      "probabilities": [
+        22.0,
+        79.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 2,
+      "prob_sum": 101.0,
+      "fetched_at": "2026-02-17T09:21:12.187279"
+    },
+    {
+      "market_id": "ucl-ben-rma-2026-02-17",
+      "title": "Sport Lisboa e Benfica32%Real Madrid CF43%",
+      "url": "https://polymarket.com/event/ucl-ben-rma-2026-02-17",
+      "probabilities": [
+        32.0,
+        43.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 2,
+      "prob_sum": 75.0,
+      "fetched_at": "2026-02-17T09:21:12.187378"
+    },
+    {
+      "market_id": "2026-winter-olympics-most-gold-medals",
+      "title": "Yes99%",
+      "url": "https://polymarket.com/event/2026-winter-olympics-most-gold-medals",
+      "probabilities": [
+        99.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 99.0,
+      "fetched_at": "2026-02-17T09:21:12.187601"
+    },
+    {
+      "market_id": "who-visited-epsteins-island",
+      "title": "Yes26%",
+      "url": "https://polymarket.com/event/who-visited-epsteins-island",
+      "probabilities": [
+        26.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 26.0,
+      "fetched_at": "2026-02-17T09:21:12.188417"
+    },
+    {
+      "market_id": "how-long-will-the-dhs-shutdown-last",
+      "title": "Yes100%",
+      "url": "https://polymarket.com/event/how-long-will-the-dhs-shutdown-last",
+      "probabilities": [
+        100.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 100.0,
+      "fetched_at": "2026-02-17T09:21:12.188790"
+    },
+    {
+      "market_id": "big-game-champion-2027",
+      "title": "Yes12%",
+      "url": "https://polymarket.com/event/big-game-champion-2027",
+      "probabilities": [
+        12.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 12.0,
+      "fetched_at": "2026-02-17T09:21:12.189171"
+    },
+    {
+      "market_id": "oscars-2026-best-picture-winner",
+      "title": "Yes75%",
+      "url": "https://polymarket.com/event/oscars-2026-best-picture-winner",
+      "probabilities": [
+        75.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 75.0,
+      "fetched_at": "2026-02-17T09:21:12.189725"
+    },
+    {
+      "market_id": "which-company-has-the-best-ai-model-end-of-february",
+      "title": "Yes68%",
+      "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-february",
+      "probabilities": [
+        68.0
+      ],
+      "volume": 0,
+      "volume_str": "",
+      "outcome_count": 1,
+      "prob_sum": 68.0,
+      "fetched_at": "2026-02-17T09:21:12.190303"
+    }
+  ]
+}

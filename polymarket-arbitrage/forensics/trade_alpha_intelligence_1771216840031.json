@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:40:40.031751",
+  "market": "Will Ime Udoka win the 2025\u20132026 NBA Coach of the Year?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.015)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

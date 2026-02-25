@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-11T06:09:23.580448",
+  "market": "Will Marty Supreme win Best Film Editing at the 98th Academy Awards?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.016
+  }
+}

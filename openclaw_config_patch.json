@@ -1,0 +1,107 @@
+{
+  "env": {
+    "vars": {
+      "OPENROUTER_API_KEY": "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"
+    }
+  },
+  "models": {
+    "providers": {
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com/v1",
+        "apiKey": "${ANTHROPIC_API_KEY}",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-sonnet-4-5",
+            "name": "Claude Sonnet 4.5",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": {
+              "input": 3,
+              "output": 15,
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "claude-haiku-4",
+            "name": "Claude Haiku 4",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": {
+              "input": 0.25,
+              "output": 1.25,
+              "cacheRead": 0.03,
+              "cacheWrite": 0.3
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "openrouter": {
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "apiKey": "${OPENROUTER_API_KEY}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "openai/gpt-4o-mini",
+            "name": "GPT-4o Mini",
+            "contextWindow": 128000,
+            "cost": {
+              "input": 0.15,
+              "output": 0.6
+            }
+          },
+          {
+            "id": "google/gemini-2.5-flash",
+            "name": "Gemini 2.5 Flash (OpenRouter)",
+            "contextWindow": 1000000,
+            "cost": {
+              "input": 0.075,
+              "output": 0.3
+            }
+          },
+          {
+            "id": "anthropic/claude-sonnet-4-5",
+            "name": "Claude Sonnet 4.5 (OpenRouter)",
+            "contextWindow": 200000,
+            "cost": {
+              "input": 3,
+              "output": 15
+            }
+          },
+          {
+            "id": "anthropic/claude-haiku-4",
+            "name": "Claude Haiku 4 (OpenRouter)",
+            "contextWindow": 200000,
+            "cost": {
+              "input": 0.25,
+              "output": 1.25
+            }
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "anthropic/claude-sonnet-4-5": {
+          "alias": "Sonnet"
+        },
+        "anthropic/claude-haiku-4": {
+          "alias": "Haiku"
+        },
+        "openrouter/google/gemini-2.5-flash": {
+          "alias": "Gemini-Flash"
+        },
+        "openrouter/anthropic/claude-haiku-4": {
+          "alias": "Haiku-OR"
+        }
+      }
+    }
+  }
+}

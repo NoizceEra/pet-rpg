@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "skills": {
+    "clawdex": {
+      "version": "1.0.2",
+      "installedAt": 1770296252179
+    },
+    "openclaw-token-optimizer": {
+      "version": "1.2.7",
+      "installedAt": 1770781236662
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770782279409
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1770782282951
+    },
+    "moltycash": {
+      "version": "1.0.1",
+      "installedAt": 1770782294312
+    },
+    "compact-state": {
+      "version": "1.4.1",
+      "installedAt": 1770783280575
+    },
+    "drunk-trading-analyzer": {
+      "version": "0.0.6",
+      "installedAt": 1770783284337
+    },
+    "cron-dashboard": {
+      "version": "1.1.0",
+      "installedAt": 1770783307918
+    },
+    "payaclaw": {
+      "version": "1.0.0",
+      "installedAt": 1770783709726
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1770784037058
+    },
+    "crypto-cog": {
+      "version": "1.0.1",
+      "installedAt": 1770784959830
+    },
+    "cellcog": {
+      "version": "1.0.15",
+      "installedAt": 1770785000545
+    },
+    "muninn": {
+      "version": "2.1.11",
+      "installedAt": 1770785040804
+    },
+    "self-improving-agent": {
+      "version": "1.0.5",
+      "installedAt": 1770825056669
+    },
+    "capability-evolver": {
+      "version": "1.10.2",
+      "installedAt": 1770825063452
+    },
+    "blogwatcher": {
+      "version": "1.0.0",
+      "installedAt": 1770831171236
+    },
+    "firecrawl-search": {
+      "version": "1.0.0",
+      "installedAt": 1770832372130
+    },
+    "solana-funding-arb": {
+      "version": "2.1.0",
+      "installedAt": 1770836373697
+    },
+    "dungeons-and-lobsters": {
+      "version": "1.0.0",
+      "installedAt": 1770836416176
+    },
+    "cryptocurrency-trader-skill": {
+      "version": "0.1.0",
+      "installedAt": 1770836384440
+    },
+    "clawslist-skill": {
+      "version": "0.4.0",
+      "installedAt": 1770836390466
+    },
+    "poseidon-otc": {
+      "version": "1.0.0",
+      "installedAt": 1770836396592
+    },
+    "tradingview-screener": {
+      "version": "1.1.0",
+      "installedAt": 1770836442726
+    },
+    "clawbrain": {
+      "version": "0.1.14",
+      "installedAt": 1770836402708
+    },
+    "claw-swarm": {
+      "version": "1.0.0",
+      "installedAt": 1770836410200
+    },
+    "openclaw-remote": {
+      "version": "0.1.2",
+      "installedAt": 1770836423183
+    },
+    "crypto-levels": {
+      "version": "1.0.3",
+      "installedAt": 1770836430780
+    },
+    "moltstreet": {
+      "version": "1.0.2",
+      "installedAt": 1770836449391
+    },
+    "binance": {
+      "version": "1.1.0",
+      "installedAt": 1770836542081
+    },
+    "solana-skills": {
+      "version": "0.1.2",
+      "installedAt": 1770851167915
+    },
+    "polymarket-auto-trader": {
+      "version": "1.0.1",
+      "installedAt": 1771220436902
+    },
+    "luckylobster-skill": {
+      "version": "0.1.0",
+      "installedAt": 1770851179292
+    },
+    "slopesniper": {
+      "version": "1.0.0",
+      "installedAt": 1770851184709
+    },
+    "defi": {
+      "version": "1.1.1",
+      "installedAt": 1770851190197
+    },
+    "solana-dev-skill": {
+      "version": "1.0.0",
+      "installedAt": 1770852237510
+    },
+    "cryptowallet": {
+      "version": "1.0.0",
+      "installedAt": 1770852243609
+    },
+    "moltguild": {
+      "version": "1.0.2",
+      "installedAt": 1770852249383
+    },
+    "antigravity-image-gen": {
+      "version": "1.0.0",
+      "installedAt": 1770852479771
+    },
+    "solana-sniper-bot": {
+      "version": "1.0.0",
+      "installedAt": 1770862268743
+    },
+    "agent-earner": {
+      "version": "1.0.0",
+      "installedAt": 1770868390105
+    },
+    "bird": {
+      "version": "1.0.0",
+      "installedAt": 1770992288552
+    },
+    "agent-evaluation": {
+      "version": "1.0.0",
+      "installedAt": 1771077084221
+    },
+    "evolver": {
+      "version": "1.12.2",
+      "installedAt": 1771077094330
+    },
+    "coding": {
+      "version": "1.0.0",
+      "installedAt": 1771077101737
+    },
+    "learning": {
+      "version": "1.0.0",
+      "installedAt": 1771077131186
+    },
+    "creativity": {
+      "version": "1.0.0",
+      "installedAt": 1771077135631
+    },
+    "recommend": {
+      "version": "1.0.0",
+      "installedAt": 1771077137639
+    },
+    "simmer": {
+      "version": "1.13.0",
+      "installedAt": 1771220359854
+    },
+    "polymarket-agent": {
+      "version": "1.0.2",
+      "installedAt": 1771220377677
+    },
+    "polymarket-api": {
+      "version": "1.0.0",
+      "installedAt": 1771220428206
+    },
+    "polymarket-trader": {
+      "version": "1.0.0",
+      "installedAt": 1771220432370
+    },
+    "poly": {
+      "version": "1.0.0",
+      "installedAt": 1771220477483
+    },
+    "sonoscli": {
+      "version": "1.0.0",
+      "installedAt": 1771873569161
+    }
+  }
+}

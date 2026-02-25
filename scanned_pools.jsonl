@@ -1,0 +1,217 @@
+{"timestamp": "2026-02-12T22:35:19.118113+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:35:20.058163+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:35:21.200027+00:00", "mint": "5b7m4gDi2XYWHj9NNT5Dmvo79jLdBANtFkjsxNHDpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:35:22.010141+00:00", "mint": "3xfxm59UyX7FGRESFAzvryPDYHGFKoj2QvNH6dyqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:35:25.786737+00:00", "mint": "Bnv2yWX1RHATfxcgTeTSx2UsWsoEBgZsabPwUJzFpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL SENT"}
+{"timestamp": "2026-02-12T22:36:03.132073+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:04.095217+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:04.897177+00:00", "mint": "5b7m4gDi2XYWHj9NNT5Dmvo79jLdBANtFkjsxNHDpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:36:35.767139+00:00", "mint": "3xfxm59UyX7FGRESFAzvryPDYHGFKoj2QvNH6dyqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:36.862621+00:00", "mint": "Bnv2yWX1RHATfxcgTeTSx2UsWsoEBgZsabPwUJzFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:37.656231+00:00", "mint": "9LMrPeYtCuVAegTnaRrzUUwv6qNxqSoBdGW966RUpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:38.554240+00:00", "mint": "26zjCPzun1pEs7a9G2BDbanzctPB3Cp2QN7ZQtXgpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:36:39.463446+00:00", "mint": "DR6eBTndvwkZCYg4hEWoZPWQQJ37tGNpbFRLxXHupump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:37:10.416794+00:00", "mint": "Bmq8BqNwrJDv3jbfy63PyQ5W3NZtcJx87KrCpiS1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:12.004038+00:00", "mint": "6zdJpuyj6YxHyxQ5Q195yfMguFsxHjHYobRpHaB3pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:14.097660+00:00", "mint": "H1qT3x15qDsSHWPJDi3etBeJrNGiv9gDNW7icJaopump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:15.582243+00:00", "mint": "5yaso9QHcqCmD7xegZvgRqa8J9RxjX2RtmK16frKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:16.483989+00:00", "mint": "8yCGQT6mw2Ga3YxpSMCLWB73FwGN6mDPjoLLtPeopump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:17.573751+00:00", "mint": "9vaJQDnfoPNNBmnBSeg76udCrttVBSjvwZm4RqP6pump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:37:48.496671+00:00", "mint": "AbTnbC5JSWFPRdKKc3gKALPokkkFKJxUhFKjmH5Hpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:49.598241+00:00", "mint": "7EC5m7o3WTNHfRStqnYKUAaGjWqKenLGxuGe3iJVpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:37:50.494840+00:00", "mint": "8YezvFMcnVX3E9MNSWqPVmsTf4snhx9Hado8xcoUpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:38:21.497569+00:00", "mint": "FbvWqgEQfyQrfeSwkFCXrDeU6NCAn85YkyZSkbBqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:38:23.452592+00:00", "mint": "V6e9AvFGp1hqE7HZBkTar8t1C7JorqZxaa5iS6kpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:38:54.408119+00:00", "mint": "9StMTY87VzGdVNguvFWxoL8i7tKyXAMWkJH1P3opCNMt", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:38:55.439660+00:00", "mint": "3npQvFY6HWkWTwNL4ibzQLdjT2R4eLH1fLG3UkjWpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:38:56.396871+00:00", "mint": "5sGUVjB3M2F1oFcF2aKhVmpdSQBvLZQwhGshp9Jspump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:38:57.719948+00:00", "mint": "BHnSeK64YVpSyYVxz5GnPVTR2w3bZ1y5vdMPMN1Rpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:38:58.562304+00:00", "mint": "8kivrta8Bpk6mHkSZDjFSKtZAn3RQbckiRxff7cTBAGS", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T22:39:29.472746+00:00", "mint": "ARkgcXQqVy5Vi1qaKF44piXaV8bUB2vb1phDPDjXpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:39:30.368312+00:00", "mint": "HtSMqNk8QAQBgPmRoeynYSyWeTBwRbS14mkmXTeXHmhm", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:43:40.817972+00:00", "mint": "C2AfR223EfWBhFSZXdCkBb68er3mRsZJnafAmqZKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:45:46.027962+00:00", "mint": "5P3i2xANfRigYubMbUjxML5jPpxB4bumrB2tbhoApump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:47:51.233868+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:47:52.100122+00:00", "mint": "86oobZ7KmQ1sozENJhLHMEAVvVZNLhdEr3HdG7kLne7A", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:21.572801+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:22.458901+00:00", "mint": "86oobZ7KmQ1sozENJhLHMEAVvVZNLhdEr3HdG7kLne7A", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:24.231620+00:00", "mint": "5P3i2xANfRigYubMbUjxML5jPpxB4bumrB2tbhoApump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:25.283841+00:00", "mint": "C2AfR223EfWBhFSZXdCkBb68er3mRsZJnafAmqZKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:26.289532+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:27.169157+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:28.041531+00:00", "mint": "5b7m4gDi2XYWHj9NNT5Dmvo79jLdBANtFkjsxNHDpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:29.003262+00:00", "mint": "3xfxm59UyX7FGRESFAzvryPDYHGFKoj2QvNH6dyqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:29.845050+00:00", "mint": "Bnv2yWX1RHATfxcgTeTSx2UsWsoEBgZsabPwUJzFpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:30.826450+00:00", "mint": "9LMrPeYtCuVAegTnaRrzUUwv6qNxqSoBdGW966RUpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:31.996563+00:00", "mint": "26zjCPzun1pEs7a9G2BDbanzctPB3Cp2QN7ZQtXgpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:33.279030+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:33.387995+00:00", "mint": "DR6eBTndvwkZCYg4hEWoZPWQQJ37tGNpbFRLxXHupump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:34.367962+00:00", "mint": "6zdJpuyj6YxHyxQ5Q195yfMguFsxHjHYobRpHaB3pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:35.193732+00:00", "mint": "H1qT3x15qDsSHWPJDi3etBeJrNGiv9gDNW7icJaopump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:37.889520+00:00", "mint": "5yaso9QHcqCmD7xegZvgRqa8J9RxjX2RtmK16frKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:38.687924+00:00", "mint": "8yCGQT6mw2Ga3YxpSMCLWB73FwGN6mDPjoLLtPeopump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:39.593822+00:00", "mint": "9vaJQDnfoPNNBmnBSeg76udCrttVBSjvwZm4RqP6pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:40.495364+00:00", "mint": "AbTnbC5JSWFPRdKKc3gKALPokkkFKJxUhFKjmH5Hpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:41.333796+00:00", "mint": "7EC5m7o3WTNHfRStqnYKUAaGjWqKenLGxuGe3iJVpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:42.256777+00:00", "mint": "8YezvFMcnVX3E9MNSWqPVmsTf4snhx9Hado8xcoUpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:43.183457+00:00", "mint": "FbvWqgEQfyQrfeSwkFCXrDeU6NCAn85YkyZSkbBqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:44.049735+00:00", "mint": "V6e9AvFGp1hqE7HZBkTar8t1C7JorqZxaa5iS6kpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:44.941466+00:00", "mint": "9StMTY87VzGdVNguvFWxoL8i7tKyXAMWkJH1P3opCNMt", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:45.812195+00:00", "mint": "3npQvFY6HWkWTwNL4ibzQLdjT2R4eLH1fLG3UkjWpump", "total_risk": 80, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:46.918691+00:00", "mint": "5sGUVjB3M2F1oFcF2aKhVmpdSQBvLZQwhGshp9Jspump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:52:48.430161+00:00", "mint": "BHnSeK64YVpSyYVxz5GnPVTR2w3bZ1y5vdMPMN1Rpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:53:05.023977+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:53:36.484299+00:00", "mint": "EMCmAApcqQGmHKvQhYAnwdYuyMDihgM1V9XVsmtupump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:53:37.141640+00:00", "mint": "EMCmAApcqQGmHKvQhYAnwdYuyMDihgM1V9XVsmtupump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:58:17.504161+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:58:17.643398+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 80, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:59:52.381206+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T22:59:53.281765+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:01:58.052810+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:01:58.841196+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:07:10.379926+00:00", "mint": "4Zydq5TvDAogr2SeoAvYkWtUpQzs3Xi4upMc7ee9pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:10:48.372862+00:00", "mint": "mVTR9L1dVpjKfR6g4Gssp9R5KyceSEwFuJHNgaRpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:19:09.138000+00:00", "mint": "4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:19:41.032523+00:00", "mint": "7qMManxJoj8nLUvRwgQe3D9KZf6iCvVLcv7Vm5Hkpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:21:15.448764+00:00", "mint": "28Wwabp1rMZoCp1cuSdJm4cEnJioqvQUxaCgh39Ppump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:31.246170+00:00", "mint": "28Wwabp1rMZoCp1cuSdJm4cEnJioqvQUxaCgh39Ppump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:32.212552+00:00", "mint": "7qMManxJoj8nLUvRwgQe3D9KZf6iCvVLcv7Vm5Hkpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:33.061617+00:00", "mint": "4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:33.832204+00:00", "mint": "mVTR9L1dVpjKfR6g4Gssp9R5KyceSEwFuJHNgaRpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:34.661122+00:00", "mint": "4Zydq5TvDAogr2SeoAvYkWtUpQzs3Xi4upMc7ee9pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:35.486458+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:36.444738+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:37.636196+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:38.441436+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:39.373330+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:40.209134+00:00", "mint": "86oobZ7KmQ1sozENJhLHMEAVvVZNLhdEr3HdG7kLne7A", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:41.057862+00:00", "mint": "5P3i2xANfRigYubMbUjxML5jPpxB4bumrB2tbhoApump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:41.820226+00:00", "mint": "C2AfR223EfWBhFSZXdCkBb68er3mRsZJnafAmqZKpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:42.748443+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:22:43.638899+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 30, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T23:23:14.503647+00:00", "mint": "5b7m4gDi2XYWHj9NNT5Dmvo79jLdBANtFkjsxNHDpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T23:23:45.466283+00:00", "mint": "3xfxm59UyX7FGRESFAzvryPDYHGFKoj2QvNH6dyqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:46.390358+00:00", "mint": "Bnv2yWX1RHATfxcgTeTSx2UsWsoEBgZsabPwUJzFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:47.215782+00:00", "mint": "9LMrPeYtCuVAegTnaRrzUUwv6qNxqSoBdGW966RUpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:48.224998+00:00", "mint": "26zjCPzun1pEs7a9G2BDbanzctPB3Cp2QN7ZQtXgpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:49.190538+00:00", "mint": "DR6eBTndvwkZCYg4hEWoZPWQQJ37tGNpbFRLxXHupump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:50.027374+00:00", "mint": "6zdJpuyj6YxHyxQ5Q195yfMguFsxHjHYobRpHaB3pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:50.899735+00:00", "mint": "H1qT3x15qDsSHWPJDi3etBeJrNGiv9gDNW7icJaopump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:51.804538+00:00", "mint": "5yaso9QHcqCmD7xegZvgRqa8J9RxjX2RtmK16frKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:23:52.599419+00:00", "mint": "8yCGQT6mw2Ga3YxpSMCLWB73FwGN6mDPjoLLtPeopump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T23:24:23.567625+00:00", "mint": "9vaJQDnfoPNNBmnBSeg76udCrttVBSjvwZm4RqP6pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:24:55.474694+00:00", "mint": "2CCx3i6z3e3mqXvM26viQd7KZ1QzqpAh3MWHu1abpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:36:20.054668+00:00", "mint": "C7nGR7kdWHCiSXzjmNTSnoc4sVptL43peZJnjTdxpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:36:20.965810+00:00", "mint": "C2fYK9mTk24tG7UEJMKfKzG9mJr1rGdLqNe333Rzpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:46:13.592368+00:00", "mint": "BPDNVj6Now2YNk9S8w1jHsHnT7EYDDEtfrRpZG2wpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T23:46:44.552940+00:00", "mint": "FGu3DHZ7qB3cuoavBH52uGcybo4mBoYoNBwTtb2tpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-12T23:47:15.529273+00:00", "mint": "6ZU9BEdbjevB2tscjAFKyWe8CbJFcYArsjwoDkxvpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-12T23:51:09.828834+00:00", "mint": "7GEVs6AcmNvJijKSx48fR3SRY6KFMfnbkriQNvec25fp", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:36.907440+00:00", "mint": "2WVmnwQuUb7T2TJX292VzsDfgPtYnPNU5WDhpt3upump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:37.807713+00:00", "mint": "4hMdEvYK4hqgXoBAqp9CsFYyvSAzT1m1ycVf5Wxipump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:38.641462+00:00", "mint": "7GEVs6AcmNvJijKSx48fR3SRY6KFMfnbkriQNvec25fp", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:39.584913+00:00", "mint": "BPDNVj6Now2YNk9S8w1jHsHnT7EYDDEtfrRpZG2wpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:41.118945+00:00", "mint": "FGu3DHZ7qB3cuoavBH52uGcybo4mBoYoNBwTtb2tpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:41.906191+00:00", "mint": "6ZU9BEdbjevB2tscjAFKyWe8CbJFcYArsjwoDkxvpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:42.836912+00:00", "mint": "C7nGR7kdWHCiSXzjmNTSnoc4sVptL43peZJnjTdxpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:43.805927+00:00", "mint": "C2fYK9mTk24tG7UEJMKfKzG9mJr1rGdLqNe333Rzpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:44.707784+00:00", "mint": "2CCx3i6z3e3mqXvM26viQd7KZ1QzqpAh3MWHu1abpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:45.551628+00:00", "mint": "28Wwabp1rMZoCp1cuSdJm4cEnJioqvQUxaCgh39Ppump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:46.428572+00:00", "mint": "7qMManxJoj8nLUvRwgQe3D9KZf6iCvVLcv7Vm5Hkpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:47.441649+00:00", "mint": "4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:48.366929+00:00", "mint": "mVTR9L1dVpjKfR6g4Gssp9R5KyceSEwFuJHNgaRpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:49.506403+00:00", "mint": "4Zydq5TvDAogr2SeoAvYkWtUpQzs3Xi4upMc7ee9pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:50.392784+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:52.168155+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:53.263467+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:54.146703+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:55.309922+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:56.522122+00:00", "mint": "86oobZ7KmQ1sozENJhLHMEAVvVZNLhdEr3HdG7kLne7A", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:57.484855+00:00", "mint": "5P3i2xANfRigYubMbUjxML5jPpxB4bumrB2tbhoApump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:58.388793+00:00", "mint": "C2AfR223EfWBhFSZXdCkBb68er3mRsZJnafAmqZKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:04:59.240350+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:05:00.198667+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:05:01.201499+00:00", "mint": "5b7m4gDi2XYWHj9NNT5Dmvo79jLdBANtFkjsxNHDpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:05:02.089383+00:00", "mint": "3xfxm59UyX7FGRESFAzvryPDYHGFKoj2QvNH6dyqpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:05:02.986948+00:00", "mint": "Bnv2yWX1RHATfxcgTeTSx2UsWsoEBgZsabPwUJzFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:05:03.839146+00:00", "mint": "9LMrPeYtCuVAegTnaRrzUUwv6qNxqSoBdGW966RUpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:08:26.701145+00:00", "mint": "4wgM7BFLeMjtuW5MpvwcSKymr5mHtfdcH1YSxUg5pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:08:27.579837+00:00", "mint": "mwPhGqt39NxnPZHKDeW79PtTCDHC4EJargZ57P2pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:12:09.956586+00:00", "mint": "AmaKiRw9qbRzEAmRZ3tfFmcdiy38Dytaa3vaEHNFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:32:22.553541+00:00", "mint": "FpuZM7Nwdy9Tk4eJcvyFumB8iQbHr5pBLJrvTqRSpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:44.374089+00:00", "mint": "FpuZM7Nwdy9Tk4eJcvyFumB8iQbHr5pBLJrvTqRSpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:45.517338+00:00", "mint": "AmaKiRw9qbRzEAmRZ3tfFmcdiy38Dytaa3vaEHNFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:46.393769+00:00", "mint": "4wgM7BFLeMjtuW5MpvwcSKymr5mHtfdcH1YSxUg5pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:47.334257+00:00", "mint": "mwPhGqt39NxnPZHKDeW79PtTCDHC4EJargZ57P2pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:48.138154+00:00", "mint": "4hMdEvYK4hqgXoBAqp9CsFYyvSAzT1m1ycVf5Wxipump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:49.013849+00:00", "mint": "7GEVs6AcmNvJijKSx48fR3SRY6KFMfnbkriQNvec25fp", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:49.885542+00:00", "mint": "BPDNVj6Now2YNk9S8w1jHsHnT7EYDDEtfrRpZG2wpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:50.702112+00:00", "mint": "FGu3DHZ7qB3cuoavBH52uGcybo4mBoYoNBwTtb2tpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:51.566024+00:00", "mint": "6ZU9BEdbjevB2tscjAFKyWe8CbJFcYArsjwoDkxvpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:52.554271+00:00", "mint": "C7nGR7kdWHCiSXzjmNTSnoc4sVptL43peZJnjTdxpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:34:53.740455+00:00", "mint": "C2fYK9mTk24tG7UEJMKfKzG9mJr1rGdLqNe333Rzpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-13T00:35:24.692931+00:00", "mint": "2CCx3i6z3e3mqXvM26viQd7KZ1QzqpAh3MWHu1abpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:35:25.576238+00:00", "mint": "28Wwabp1rMZoCp1cuSdJm4cEnJioqvQUxaCgh39Ppump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:35:26.415671+00:00", "mint": "7qMManxJoj8nLUvRwgQe3D9KZf6iCvVLcv7Vm5Hkpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-13T00:35:57.253258+00:00", "mint": "4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:35:58.155959+00:00", "mint": "mVTR9L1dVpjKfR6g4Gssp9R5KyceSEwFuJHNgaRpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:35:59.009364+00:00", "mint": "4Zydq5TvDAogr2SeoAvYkWtUpQzs3Xi4upMc7ee9pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:35:59.984349+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:00.849347+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:02.134749+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:02.987754+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:03.885639+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:04.749159+00:00", "mint": "86oobZ7KmQ1sozENJhLHMEAVvVZNLhdEr3HdG7kLne7A", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:05.663673+00:00", "mint": "5P3i2xANfRigYubMbUjxML5jPpxB4bumrB2tbhoApump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:08.741711+00:00", "mint": "C2AfR223EfWBhFSZXdCkBb68er3mRsZJnafAmqZKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:09.577015+00:00", "mint": "2uFPAbK7tAzD7A7E365DV1nyNLtP93nV4hVi6BkWpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:36:10.646001+00:00", "mint": "7DnfvxinVZBGWHcDwtwPc12rCxTeJ3JvY3yNdT1Rpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:39:49.179486+00:00", "mint": "GH9dEXsWv2BPHejoXmzWfPN1Su59sR8TgjQk2Ltkpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:42:59.220361+00:00", "mint": "3Wpd51PMpPM6VU1ydmZXZyeMBAHvd5dpooeQqyBRpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:44:33.591141+00:00", "mint": "8hccoPdPATEXiZaoZXUJ6rTTDcfTDN3h5huTsn8rpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-13T00:47:07.071302+00:00", "mint": "8AX9SQ8kGUBwo2nThJ98i3Eus8aAFCDzbch2KWsepump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:07.926082+00:00", "mint": "8hccoPdPATEXiZaoZXUJ6rTTDcfTDN3h5huTsn8rpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:08.803804+00:00", "mint": "3Wpd51PMpPM6VU1ydmZXZyeMBAHvd5dpooeQqyBRpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:09.751410+00:00", "mint": "GH9dEXsWv2BPHejoXmzWfPN1Su59sR8TgjQk2Ltkpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:10.640865+00:00", "mint": "FpuZM7Nwdy9Tk4eJcvyFumB8iQbHr5pBLJrvTqRSpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:11.578885+00:00", "mint": "AmaKiRw9qbRzEAmRZ3tfFmcdiy38Dytaa3vaEHNFpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:12.434092+00:00", "mint": "4wgM7BFLeMjtuW5MpvwcSKymr5mHtfdcH1YSxUg5pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:13.559313+00:00", "mint": "mwPhGqt39NxnPZHKDeW79PtTCDHC4EJargZ57P2pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:14.420314+00:00", "mint": "4hMdEvYK4hqgXoBAqp9CsFYyvSAzT1m1ycVf5Wxipump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:15.408888+00:00", "mint": "7GEVs6AcmNvJijKSx48fR3SRY6KFMfnbkriQNvec25fp", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:16.309772+00:00", "mint": "BPDNVj6Now2YNk9S8w1jHsHnT7EYDDEtfrRpZG2wpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:17.181567+00:00", "mint": "FGu3DHZ7qB3cuoavBH52uGcybo4mBoYoNBwTtb2tpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:18.029005+00:00", "mint": "6ZU9BEdbjevB2tscjAFKyWe8CbJFcYArsjwoDkxvpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:18.840010+00:00", "mint": "C7nGR7kdWHCiSXzjmNTSnoc4sVptL43peZJnjTdxpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:19.781475+00:00", "mint": "C2fYK9mTk24tG7UEJMKfKzG9mJr1rGdLqNe333Rzpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:20.620585+00:00", "mint": "2CCx3i6z3e3mqXvM26viQd7KZ1QzqpAh3MWHu1abpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:21.784423+00:00", "mint": "28Wwabp1rMZoCp1cuSdJm4cEnJioqvQUxaCgh39Ppump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:22.632163+00:00", "mint": "7qMManxJoj8nLUvRwgQe3D9KZf6iCvVLcv7Vm5Hkpump", "total_risk": 40, "liquidity": 10000, "status": "SIGNAL STAGED"}
+{"timestamp": "2026-02-13T00:47:53.751192+00:00", "mint": "4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:54.629054+00:00", "mint": "mVTR9L1dVpjKfR6g4Gssp9R5KyceSEwFuJHNgaRpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:55.736625+00:00", "mint": "4Zydq5TvDAogr2SeoAvYkWtUpQzs3Xi4upMc7ee9pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:57.321581+00:00", "mint": "8AMqwB4AjLNDn2BuJDqQXunA3FoyP82WYs3bpZmrpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:58.315859+00:00", "mint": "D5KTJhAXFpLezypCZGcSiFNB7ChezHeNzpAJ9Pibpump", "total_risk": 80, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:47:59.531710+00:00", "mint": "Bq9D4BbhVR4kL1qSdsYpQ5JM59q2LzUYzv7zFA1epump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:48:00.830162+00:00", "mint": "AFU2VvmDSjsMf7nDXbEs5wB9awvfBkgMf27sK4Pnpump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:48:02.115632+00:00", "mint": "2zSw9NDidsgotB2NDjZTYGQqQ7fsWtheZNJCfmL1pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:51:33.183763+00:00", "mint": "DDRBi3ZbWMbT6rpz4s6Cbd6SZXuF47uuMT38X1Vspump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:53:41.826953+00:00", "mint": "97x91tkU23xUVc1d4BCVFUHBCR3jCVuRtjeE7zaKpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T00:55:18.728467+00:00", "mint": "EBbxx3Bqr5tf4cisY3fbSw3gzcqXoFZjp9PYUkdZpump", "total_risk": 60, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T01:05:47.329151+00:00", "mint": "HQcUdwHLDU7wcpwoAdSg9cCe4VHW2XPH2EY9JUZQpump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T01:07:52.504710+00:00", "mint": "BPkDXPzzJ66y46jx951HHjU4dr9NrMMeKex6rfopump", "total_risk": 70, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T01:08:24.559018+00:00", "mint": "7sw6chiwMZtoPSguXoMA27HA4VWwC6jqZSVF5af4pump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T01:09:58.824819+00:00", "mint": "2zDUMheEbHB9e42zS2Qn8kve8ET6bR5m1A87qd7Spump", "total_risk": 50, "liquidity": 10000, "status": "skipped: high risk"}
+{"timestamp": "2026-02-13T01:11:55.390249+00:00", "mint": "2zDUMheEbHB9e42zS2Qn8kve8ET6bR5m1A87qd7Spump", "total_risk": 50, "status": "BOUGHT"}
+{"timestamp": "2026-02-13T01:11:58.394293+00:00", "mint": "7sw6chiwMZtoPSguXoMA27HA4VWwC6jqZSVF5af4pump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:01.599482+00:00", "mint": "BPkDXPzzJ66y46jx951HHjU4dr9NrMMeKex6rfopump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:02.636335+00:00", "mint": "HQcUdwHLDU7wcpwoAdSg9cCe4VHW2XPH2EY9JUZQpump", "total_risk": 60, "status": "SKIPPED_HIGH_RISK"}
+{"timestamp": "2026-02-13T01:12:05.369410+00:00", "mint": "EBbxx3Bqr5tf4cisY3fbSw3gzcqXoFZjp9PYUkdZpump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:08.559125+00:00", "mint": "97x91tkU23xUVc1d4BCVFUHBCR3jCVuRtjeE7zaKpump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:09.393992+00:00", "mint": "DDRBi3ZbWMbT6rpz4s6Cbd6SZXuF47uuMT38X1Vspump", "total_risk": 60, "status": "SKIPPED_HIGH_RISK"}
+{"timestamp": "2026-02-13T01:12:13.838850+00:00", "mint": "8AX9SQ8kGUBwo2nThJ98i3Eus8aAFCDzbch2KWsepump", "total_risk": 50, "status": "BOUGHT"}
+{"timestamp": "2026-02-13T01:12:17.312353+00:00", "mint": "8hccoPdPATEXiZaoZXUJ6rTTDcfTDN3h5huTsn8rpump", "total_risk": 30, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:20.390449+00:00", "mint": "3Wpd51PMpPM6VU1ydmZXZyeMBAHvd5dpooeQqyBRpump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:23.250359+00:00", "mint": "GH9dEXsWv2BPHejoXmzWfPN1Su59sR8TgjQk2Ltkpump", "total_risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:24.168415+00:00", "mint": "FpuZM7Nwdy9Tk4eJcvyFumB8iQbHr5pBLJrvTqRSpump", "total_risk": 70, "status": "SKIPPED_HIGH_RISK"}
+{"timestamp": "2026-02-13T01:12:27.009530+00:00", "mint": "AmaKiRw9qbRzEAmRZ3tfFmcdiy38Dytaa3vaEHNFpump", "total_risk": 50, "status": "SWAP_FAILED"}

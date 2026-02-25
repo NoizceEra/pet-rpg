@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plausible Analytics - Variation C</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .btn-primary { background-color: #2563eb; color: white; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 600; transition: background-color 0.2s; }
+        .btn-primary:hover { background-color: #1d4ed8; }
+        /* Variation C Change: Green CTA button */
+        .btn-green { background-color: #16a34a; color: white; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 600; transition: background-color 0.2s; }
+        .btn-green:hover { background-color: #15803d; }
+        .btn-secondary { border: 1px solid #d1d5db; color: #374151; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 600; transition: background-color 0.2s; }
+        .btn-secondary:hover { background-color: #f9fafb; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-blue-600 rounded-lg"></div>
+            <span class="text-xl font-bold tracking-tight">Plausible</span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+            <a href="#" class="hover:text-blue-600">Why Plausible</a>
+            <a href="#" class="hover:text-blue-600">Community</a>
+            <a href="#" class="hover:text-blue-600">Pricing</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-600 font-medium hover:text-blue-600">Login</a>
+            <a href="#" class="btn-green">Start my free trial</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-4xl mx-auto px-4 text-center py-16 md:py-24 pb-12">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Easy to use and privacy-friendly Google Analytics alternative
+        </h1>
+        <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+            Plausible is powerful, lightweight analytics. No cookies, just insights. Made and hosted in the EU, powered by European-owned infrastructure. 🇪🇺
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#" class="btn-green px-8">Start my free trial</a>
+            <a href="#" class="btn-secondary px-8">View live demo</a>
+        </div>
+    </header>
+
+    <!-- Variation C Change: Logo Bar / Social Proof -->
+    <section class="border-y border-gray-100 py-10 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-center text-sm font-bold text-gray-400 uppercase tracking-widest mb-8">Trusted by 16,000+ subscribers</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-40 grayscale">
+                <div class="h-8 w-24 bg-gray-400 rounded"></div>
+                <div class="h-8 w-32 bg-gray-400 rounded"></div>
+                <div class="h-8 w-28 bg-gray-400 rounded"></div>
+                <div class="h-8 w-36 bg-gray-400 rounded"></div>
+                <div class="h-8 w-24 bg-gray-400 rounded"></div>
+                <div class="h-8 w-20 bg-gray-400 rounded"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4 text-gray-900">Why use Plausible Analytics?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Google Analytics is overkill for most site owners. Plausible gives you clear, useful insights without complexity.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                    <h3 class="font-bold mb-2">Scroll depth tracking</h3>
+                    <p class="text-gray-600 text-sm">Track from 1 to 100 percent automatically on every page. No setup required.</p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 21l-1 1h8l-1-1-.75-4M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="font-bold mb-2">Monitor traffic from AI</h3>
+                    <p class="text-gray-600 text-sm">See which AI tools like ChatGPT or Claude send you traffic and track conversions.</p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    </div>
+                    <h3 class="font-bold mb-2">Analyze SEO performance</h3>
+                    <p class="text-gray-600 text-sm">Connect Search Console to see search queries directly in your dashboard.</p>
+                </div>
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-bold mb-2">Real-time dashboard</h3>
+                    <p class="text-gray-600 text-sm">Monitor live traffic with the same metrics as your main dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Call to Action -->
+    <section class="bg-blue-600 py-16 text-center text-white">
+        <h2 class="text-3xl font-bold mb-8">Ready to ditch Google Analytics?</h2>
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100">Start my free trial</a>
+            <a href="#" class="border border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">View live demo</a>
+        </div>
+    </section>
+
+</body>
+</html>

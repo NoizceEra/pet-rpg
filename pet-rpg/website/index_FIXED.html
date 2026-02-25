@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moltgotchi - Your Autonomous Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🐾 Moltgotchi</h1>
+            <p>Your autonomous pet battle game</p>
+        </header>
+
+        <!-- Notifications Container -->
+        <div id="notification-container" class="notification-container"></div>
+
+        <!-- Loading Indicator -->
+        <div id="loader" data-loader style="display: none; text-align: center; padding: 20px;">
+            <p>⏳ Loading...</p>
+        </div>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            
+            <!-- CREATE PET SECTION -->
+            <section id="create-pet-section" class="card">
+                <h2>🎮 Create Your Pet</h2>
+                <div id="create-pet-form">
+                    <input 
+                        type="text" 
+                        id="pet-name-input" 
+                        placeholder="Enter pet name (e.g. Fluffy)"
+                        maxlength="24"
+                    >
+                    <select id="pet-species-select">
+                        <option value="">Select a species...</option>
+                    </select>
+                    <button id="create-pet-btn" class="btn btn-primary">🎉 Hatch Pet</button>
+                </div>
+            </section>
+
+            <!-- PET DASHBOARD (Hidden until pet created) -->
+            <section id="pet-dashboard" class="card" style="display: none;">
+                <h2>Your Pet</h2>
+                
+                <!-- Pet Info -->
+                <div id="pet-info" class="pet-info">
+                    <h3 id="pet-name">Fluffy</h3>
+                    <p id="pet-level">Level 1</p>
+                    <p id="pet-species">MoltCrab</p>
+                    <div id="pet-sprite" class="pet-sprite">🐾</div>
+                </div>
+
+                <!-- Stat Bars -->
+                <div id="stats" class="stats">
+                    <div class="stat">
+                        <label>❤️ HP</label>
+                        <div class="stat-bar-container">
+                            <div id="hp-bar" class="stat-bar hp-bar"></div>
+                        </div>
+                        <span id="hp-value">30/30</span>
+                    </div>
+                    
+                    <div class="stat">
+                        <label>🍖 Hunger</label>
+                        <div class="stat-bar-container">
+                            <div id="hunger-bar" class="stat-bar hunger-bar"></div>
+                        </div>
+                        <span id="hunger-value">100%</span>
+                    </div>
+                    
+                    <div class="stat">
+                        <label>😊 Happiness</label>
+                        <div class="stat-bar-container">
+                            <div id="happiness-bar" class="stat-bar happiness-bar"></div>
+                        </div>
+                        <span id="happiness-value">100%</span>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div id="actions" class="action-grid">
+                    <button id="feed-btn" class="btn btn-action">🍖 Feed</button>
+                    <button id="play-btn" class="btn btn-action">🎮 Play</button>
+                    <button id="train-btn" class="btn btn-action">💪 Train</button>
+                    <button id="rest-btn" class="btn btn-action">😴 Rest</button>
+                    <button id="evolve-btn" class="btn btn-action">✨ Evolve</button>
+                    <button id="battle-btn" class="btn btn-action btn-danger">⚔️ Battle</button>
+                </div>
+            </section>
+
+            <!-- Leaderboard -->
+            <section id="leaderboard-section" class="card" style="display: none;">
+                <h2>🏆 Leaderboard</h2>
+                <table id="leaderboard-table" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Pet Name</th>
+                            <th>Owner</th>
+                            <th>Wins</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+
+            <!-- Battles -->
+            <section id="battles-section" class="card" style="display: none;">
+                <h2>⚔️ Recent Battles</h2>
+                <table id="battles-table" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Opponent</th>
+                            <th>Result</th>
+                            <th>Turns</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Moltgotchi v0.2.0 | Platform-agnostic pet RPG</p>
+            <p id="api-status">🟢 API: Online</p>
+        </footer>
+    </div>
+
+    <!-- MODALS -->
+
+    <!-- Train Modal -->
+    <div id="train-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>💪 Train Your Pet</h2>
+            <p>Choose a stat to train:</p>
+            <div class="train-options">
+                <button class="btn btn-primary" data-stat="strength">💪 Strength</button>
+                <button class="btn btn-primary" data-stat="speed">⚡ Speed</button>
+                <button class="btn btn-primary" data-stat="intelligence">🧠 Intelligence</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Battle Modal -->
+    <div id="battle-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>⚔️ Challenge an Opponent</h2>
+            <form id="battle-form">
+                <input 
+                    type="text" 
+                    id="opponent-id-input" 
+                    placeholder="Enter opponent's user ID"
+                    required
+                >
+                <input 
+                    type="number" 
+                    id="wager-input" 
+                    placeholder="Wager (USDC) - optional"
+                    min="0"
+                    max="100"
+                    step="0.5"
+                >
+                <button type="submit" class="btn btn-primary btn-danger">⚔️ Battle</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Create Pet Modal (optional, can also use inline form) -->
+    <div id="create-pet-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>🎉 Hatch Your Pet</h2>
+            <!-- Handled by create-pet-section, this is backup -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- App Initialization -->
+    <script>
+        // Initialize app when DOM is ready
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('[App] DOM loaded, starting initialization...');
+            
+            // Get or generate user ID
+            if (!gameState.userId) {
+                const newUserId = 'user_' + Math.random().toString(36).substr(2, 9);
+                gameState.setUserId(newUserId);
+                localStorage.setItem('moltgotchi_user_id', newUserId);
+                console.log('[App] Generated new user ID:', newUserId);
+            }
+            
+            // Initialize app
+            await initializeApp();
+            
+            // Bind event listeners
+            bindEventListeners();
+            
+            console.log('[App] Initialization complete');
+        });
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () => {
+            console.log('[App] Cleaning up...');
+            stopAutoRefresh();
+        });
+    </script>
+</body>
+</html>

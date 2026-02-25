@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-13T14:58:00Z",
+  "event": "TRIPLE_FLUSH_OUT",
+  "tokens": ["MEW", "LinhMai", "WUF"],
+  "pattern": "Simultaneous instant sell-off across multiple 'boosted' pairs. High slippage on stop-losses.",
+  "damage_report": {
+    "entry_total": 0.224,
+    "recovered_total": 0.076,
+    "realized_roi_avg": 0.34
+  },
+  "lesson": "DexScreener 'Boosted' pairs are currently being used for coordinated exit liquidity flushes. Tighten filters on social density vs volume ratio."
+}

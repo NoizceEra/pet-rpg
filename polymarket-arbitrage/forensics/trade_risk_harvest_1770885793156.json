@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-12T01:43:13.156519",
+  "market": "Will Don Brown be the Republican nominee for Senate in North Carolina?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.0155
+  }
+}

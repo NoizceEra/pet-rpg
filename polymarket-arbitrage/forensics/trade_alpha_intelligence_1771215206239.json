@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:13:26.239548",
+  "market": "Will Antonio Delgado win the 2026 New York Democratic Gubernatorial Primary?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.016)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:13:26.810182",
+  "market": "Will Anthony Edwards lead the NBA in three pointers made during the 2025\u201326 NBA season?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.013)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

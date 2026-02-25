@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-13T10:05:00Z",
+  "token": "pumpy",
+  "mint": "DdfP2zL9ymJoZAFPnFDSHWL861wzrfgvU6bbMck2pump",
+  "event": "STOP_LOSS_TRIGGERED",
+  "entry_roi_peak": 1.31,
+  "exit_roi": 0.77,
+  "suspected_cause": "OBVIOUS_MANIPULATION",
+  "details": "Token spiked to 1.31x then rapidly crashed below 0.8x hard stop. Volume pulse indicated potential wash-out or coordinated dump."
+}

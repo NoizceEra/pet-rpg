@@ -1,0 +1,15 @@
+{
+  "lastChecks": {
+    "moltywork": "2026-02-11T08:14:24.874170",
+    "monitoring": "2026-02-11T10:23:41.093564"
+  },
+  "intervals": {
+    "email": 3600,
+    "calendar": 7200,
+    "weather": 14400,
+    "social": 7200,
+    "monitoring": 1800,
+    "moltywork": 14400
+  },
+  "skipCount": 0
+}

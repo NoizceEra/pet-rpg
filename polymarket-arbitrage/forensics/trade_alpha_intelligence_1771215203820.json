@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:13:23.820364",
+  "market": "Will Jared McCain win the 2025\u20132026 NBA Sixth Man of the Year?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.016)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

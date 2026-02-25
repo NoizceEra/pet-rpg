@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:13:25.070324",
+  "market": "Will MrBeast announce a Presidential run before 2027?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.015)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

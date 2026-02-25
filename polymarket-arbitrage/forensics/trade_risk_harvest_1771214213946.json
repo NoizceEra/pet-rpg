@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-15T20:56:53.946530",
+  "market": "Will Chael Sonnen win the 2026 Oregon Governor Republican primary election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.013
+  }
+}

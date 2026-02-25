@@ -1,0 +1,59 @@
+{
+  "auth": {
+    "profiles": {
+      "ollama:local": {
+        "provider": "ollama",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://localhost:11434",
+        "api": "ollama",
+        "models": [
+          {
+            "id": "mistral",
+            "name": "Mistral 7B",
+            "api": "ollama",
+            "input": ["text"],
+            "contextWindow": 32000,
+            "maxTokens": 8000
+          },
+          {
+            "id": "neural-chat",
+            "name": "Neural Chat 7B",
+            "api": "ollama",
+            "input": ["text"],
+            "contextWindow": 8192,
+            "maxTokens": 2048
+          },
+          {
+            "id": "dolphin-mixtral",
+            "name": "Dolphin Mixtral 8x7B",
+            "api": "ollama",
+            "input": ["text"],
+            "contextWindow": 32000,
+            "maxTokens": 8000
+          }
+        ]
+      },
+      "claude-code": {
+        "baseUrl": "http://localhost:3000",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "claude-code-local",
+            "name": "Claude Code (Local)",
+            "api": "openai-completions",
+            "input": ["text"],
+            "contextWindow": 200000,
+            "maxTokens": 8000
+          }
+        ]
+      }
+    }
+  }
+}

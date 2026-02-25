@@ -1,0 +1,268 @@
+2026-02-16 08:15:54,933 [INFO] Engine running in SHADOW MODE.
+2026-02-16 08:15:54,933 [INFO] --- Starting Engine Scan ---
+2026-02-16 08:15:55,617 [ERROR] Binance fetch error: 'lastPrice'
+2026-02-16 08:15:57,515 [INFO] Belief Price (VWAP): $68306.79
+2026-02-16 08:15:57,515 [INFO] Market: BTC Price > Strike at Next 15m Interval ($68360.0)
+2026-02-16 08:15:57,515 [INFO] Market 'Yes' Price: 0.5000
+2026-02-16 08:15:57,515 [INFO] Our Posterior 'Yes' Prob: 0.2909
+2026-02-16 08:15:57,515 [INFO] Calculated Edge: -0.2091
+2026-02-16 08:15:57,515 [INFO] SHADOW TRADE: BUY NO | Size: 10.46%
+2026-02-16 08:15:57,516 [INFO] --- Scan Complete ---
+2026-02-16 08:16:12,402 [INFO] Engine running in SHADOW MODE.
+2026-02-16 08:16:12,403 [INFO] --- Starting Engine Scan ---
+2026-02-16 08:16:14,565 [INFO] Belief Price (VWAP): $68279.90
+2026-02-16 08:16:14,565 [INFO] Market: BTC Price > Strike at Next 15m Interval ($68330.0)
+2026-02-16 08:16:14,565 [INFO] Market 'Yes' Price: 0.5000
+2026-02-16 08:16:14,566 [INFO] Our Posterior 'Yes' Prob: 0.3019
+2026-02-16 08:16:14,566 [INFO] Calculated Edge: -0.1981
+2026-02-16 08:16:14,566 [INFO] SHADOW TRADE: BUY NO | Size: 9.90%
+2026-02-16 08:16:14,566 [INFO] --- Scan Complete ---
+2026-02-16 09:57:31,821 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 09:57:33,698 [INFO] Belief Price (VWAP): $67793.40
+2026-02-16 09:57:34,862 [INFO] --- Scan Complete ---
+2026-02-16 11:13:14,574 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 11:13:16,480 [INFO] Belief Price (VWAP): $68111.77
+2026-02-16 11:13:19,163 [INFO] --- Scan Complete ---
+2026-02-16 11:27:47,677 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 11:27:49,491 [INFO] Belief Price (VWAP): $68161.73
+2026-02-16 11:27:51,902 [INFO] --- Scan Complete ---
+2026-02-16 11:46:05,366 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 11:46:09,621 [INFO] Belief Price (VWAP): $67958.34
+2026-02-16 11:46:12,196 [INFO] --- Scan Complete ---
+2026-02-16 11:56:46,629 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 11:56:48,579 [INFO] Belief Price (VWAP): $67915.03
+2026-02-16 11:56:50,658 [INFO] --- Scan Complete ---
+2026-02-16 12:11:45,479 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 12:11:47,821 [INFO] Belief Price (VWAP): $67916.74
+2026-02-16 12:11:50,015 [INFO] --- Scan Complete ---
+2026-02-16 12:26:46,246 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 12:26:49,265 [INFO] Belief Price (VWAP): $68000.00
+2026-02-16 12:26:50,997 [INFO] --- Scan Complete ---
+2026-02-16 12:42:32,601 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 12:42:35,058 [INFO] Belief Price (VWAP): $68025.95
+2026-02-16 12:42:36,650 [INFO] --- Scan Complete ---
+2026-02-16 12:58:22,991 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 12:58:24,839 [INFO] Belief Price (VWAP): $67932.30
+2026-02-16 12:58:26,272 [INFO] --- Scan Complete ---
+2026-02-16 13:11:44,380 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 13:11:48,108 [INFO] Belief Price (VWAP): $67849.66
+2026-02-16 13:11:49,309 [INFO] --- Scan Complete ---
+2026-02-16 13:41:44,677 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 13:41:47,359 [INFO] Belief Price (VWAP): $68186.42
+2026-02-16 13:41:50,438 [INFO] --- Scan Complete ---
+2026-02-16 13:56:44,610 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 13:56:47,157 [INFO] Belief Price (VWAP): $68378.38
+2026-02-16 13:56:51,935 [INFO] --- Scan Complete ---
+2026-02-16 16:11:52,319 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 16:11:54,479 [INFO] Belief Price (VWAP): $68669.92
+2026-02-16 16:11:56,073 [INFO] --- Scan Complete ---
+2026-02-16 16:26:44,140 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 16:26:46,322 [INFO] Belief Price (VWAP): $68690.57
+2026-02-16 16:26:48,372 [INFO] --- Scan Complete ---
+2026-02-16 16:41:45,753 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 16:41:47,833 [INFO] Belief Price (VWAP): $68693.06
+2026-02-16 16:41:49,903 [INFO] --- Scan Complete ---
+2026-02-16 16:56:44,315 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 16:56:46,577 [INFO] Belief Price (VWAP): $68826.74
+2026-02-16 16:56:48,681 [INFO] --- Scan Complete ---
+2026-02-16 17:12:30,416 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 17:12:32,681 [INFO] Belief Price (VWAP): $68784.50
+2026-02-16 17:12:34,125 [INFO] --- Scan Complete ---
+2026-02-16 17:26:43,945 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 17:26:46,191 [INFO] Belief Price (VWAP): $68745.35
+2026-02-16 17:26:47,632 [INFO] --- Scan Complete ---
+2026-02-16 20:26:56,284 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 20:26:58,521 [INFO] Belief Price (VWAP): $68598.47
+2026-02-16 20:27:00,468 [INFO] --- Scan Complete ---
+2026-02-16 20:41:44,225 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 20:41:46,433 [INFO] Belief Price (VWAP): $68492.93
+2026-02-16 20:41:47,856 [INFO] --- Scan Complete ---
+2026-02-16 20:56:45,603 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 20:56:47,652 [INFO] Belief Price (VWAP): $68481.05
+2026-02-16 20:56:49,767 [INFO] --- Scan Complete ---
+2026-02-16 21:11:46,078 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 21:11:48,040 [INFO] Belief Price (VWAP): $68527.78
+2026-02-16 21:11:55,571 [INFO] --- Scan Complete ---
+2026-02-16 21:26:45,122 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 21:26:47,306 [INFO] Belief Price (VWAP): $68610.76
+2026-02-16 21:26:49,102 [INFO] --- Scan Complete ---
+2026-02-16 21:41:46,829 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 21:41:49,277 [INFO] Belief Price (VWAP): $68391.96
+2026-02-16 21:41:51,237 [INFO] --- Scan Complete ---
+2026-02-16 21:56:46,169 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 21:56:48,207 [INFO] Belief Price (VWAP): $68356.05
+2026-02-16 21:56:49,915 [INFO] No active sprint markets found.
+2026-02-16 22:11:46,109 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 22:11:48,211 [INFO] Belief Price (VWAP): $68423.10
+2026-02-16 22:11:49,503 [INFO] No active sprint markets found.
+2026-02-16 22:26:46,145 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 22:26:48,394 [INFO] Belief Price (VWAP): $67968.52
+2026-02-16 22:26:50,070 [INFO] No active sprint markets found.
+2026-02-16 22:41:46,101 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 22:41:48,145 [INFO] Belief Price (VWAP): $68041.60
+2026-02-16 22:41:49,263 [INFO] No active sprint markets found.
+2026-02-16 22:56:48,085 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 22:56:50,190 [INFO] Belief Price (VWAP): $68177.56
+2026-02-16 22:56:51,788 [INFO] No active sprint markets found.
+2026-02-16 23:11:45,812 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 23:11:47,703 [INFO] Belief Price (VWAP): $68374.64
+2026-02-16 23:11:48,932 [INFO] No active sprint markets found.
+2026-02-16 23:26:44,307 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 23:26:46,246 [INFO] Belief Price (VWAP): $68273.75
+2026-02-16 23:26:47,905 [INFO] No active sprint markets found.
+2026-02-16 23:41:44,743 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 23:41:47,098 [INFO] Belief Price (VWAP): $68442.29
+2026-02-16 23:41:48,417 [INFO] No active sprint markets found.
+2026-02-16 23:56:44,403 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-16 23:56:46,432 [INFO] Belief Price (VWAP): $68400.51
+2026-02-16 23:56:48,061 [INFO] No active sprint markets found.
+2026-02-17 00:11:44,195 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 00:11:46,089 [INFO] Belief Price (VWAP): $68279.11
+2026-02-17 00:11:47,329 [INFO] No active sprint markets found.
+2026-02-17 00:26:45,207 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 00:26:47,458 [INFO] Belief Price (VWAP): $68237.18
+2026-02-17 00:26:49,199 [INFO] No active sprint markets found.
+2026-02-17 00:42:37,467 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 00:42:39,408 [INFO] Belief Price (VWAP): $68418.58
+2026-02-17 00:42:40,677 [INFO] No active sprint markets found.
+2026-02-17 00:56:44,242 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 00:56:46,230 [INFO] Belief Price (VWAP): $68411.58
+2026-02-17 00:56:47,918 [INFO] No active sprint markets found.
+2026-02-17 01:11:44,558 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 01:11:46,628 [INFO] Belief Price (VWAP): $68397.46
+2026-02-17 01:11:47,855 [INFO] No active sprint markets found.
+2026-02-17 01:26:45,160 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 01:26:47,175 [INFO] Belief Price (VWAP): $68263.98
+2026-02-17 01:26:48,390 [INFO] No active sprint markets found.
+2026-02-17 01:44:10,425 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 01:44:12,428 [INFO] Belief Price (VWAP): $68151.56
+2026-02-17 01:44:14,146 [INFO] No active sprint markets found.
+2026-02-17 01:56:44,246 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 01:56:46,262 [INFO] Belief Price (VWAP): $68119.16
+2026-02-17 01:56:47,928 [INFO] No active sprint markets found.
+2026-02-17 02:11:44,434 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 02:11:46,281 [INFO] Belief Price (VWAP): $68052.93
+2026-02-17 02:11:47,454 [INFO] No active sprint markets found.
+2026-02-17 02:26:44,636 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 02:26:47,047 [INFO] Belief Price (VWAP): $67999.26
+2026-02-17 02:26:48,751 [INFO] No active sprint markets found.
+2026-02-17 02:41:45,200 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 02:41:48,003 [INFO] Belief Price (VWAP): $67975.83
+2026-02-17 02:41:49,740 [INFO] No active sprint markets found.
+2026-02-17 02:56:44,392 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 02:56:46,617 [INFO] Belief Price (VWAP): $68107.56
+2026-02-17 02:56:48,330 [INFO] No active sprint markets found.
+2026-02-17 03:11:45,656 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 03:11:47,874 [INFO] Belief Price (VWAP): $68136.68
+2026-02-17 03:11:49,156 [INFO] No active sprint markets found.
+2026-02-17 03:26:44,722 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 03:26:46,631 [INFO] Belief Price (VWAP): $67893.67
+2026-02-17 03:26:48,313 [INFO] No active sprint markets found.
+2026-02-17 03:41:44,977 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 03:41:46,938 [INFO] Belief Price (VWAP): $67797.78
+2026-02-17 03:41:48,140 [INFO] No active sprint markets found.
+2026-02-17 03:56:45,125 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 03:56:47,329 [INFO] Belief Price (VWAP): $67792.20
+2026-02-17 03:56:49,669 [INFO] No active sprint markets found.
+2026-02-17 04:11:45,565 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 04:11:48,067 [INFO] Belief Price (VWAP): $67818.21
+2026-02-17 04:11:49,365 [INFO] No active sprint markets found.
+2026-02-17 04:26:44,600 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 04:26:46,999 [INFO] Belief Price (VWAP): $67732.08
+2026-02-17 04:26:48,668 [INFO] No active sprint markets found.
+2026-02-17 04:41:45,338 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 04:41:47,869 [INFO] Belief Price (VWAP): $67739.82
+2026-02-17 04:41:49,224 [INFO] No active sprint markets found.
+2026-02-17 04:56:45,848 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 04:56:48,047 [INFO] Belief Price (VWAP): $67819.82
+2026-02-17 04:56:50,499 [INFO] No active sprint markets found.
+2026-02-17 05:11:44,902 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 05:11:47,368 [INFO] Belief Price (VWAP): $68064.52
+2026-02-17 05:11:48,666 [INFO] No active sprint markets found.
+2026-02-17 05:26:53,807 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 05:26:56,208 [INFO] Belief Price (VWAP): $68038.13
+2026-02-17 05:26:57,891 [INFO] No active sprint markets found.
+2026-02-17 05:41:44,781 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 05:41:47,097 [INFO] Belief Price (VWAP): $68171.88
+2026-02-17 05:41:48,367 [INFO] No active sprint markets found.
+2026-02-17 05:58:16,347 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 05:58:18,934 [INFO] Belief Price (VWAP): $67924.78
+2026-02-17 05:58:22,128 [INFO] No active sprint markets found.
+2026-02-17 06:11:45,057 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 06:11:47,335 [INFO] Belief Price (VWAP): $68019.52
+2026-02-17 06:11:49,009 [INFO] No active sprint markets found.
+2026-02-17 06:26:45,123 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 06:26:47,531 [INFO] Belief Price (VWAP): $68197.48
+2026-02-17 06:26:49,237 [INFO] No active sprint markets found.
+2026-02-17 06:41:44,619 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 06:41:47,015 [INFO] Belief Price (VWAP): $67972.50
+2026-02-17 06:41:48,388 [INFO] No active sprint markets found.
+2026-02-17 06:57:05,521 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 06:57:08,268 [INFO] Belief Price (VWAP): $68127.64
+2026-02-17 06:57:10,031 [INFO] No active sprint markets found.
+2026-02-17 07:11:44,707 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 07:11:46,614 [INFO] Belief Price (VWAP): $68141.49
+2026-02-17 07:11:48,055 [INFO] No active sprint markets found.
+2026-02-17 07:26:47,536 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 07:26:49,760 [INFO] Belief Price (VWAP): $67992.20
+2026-02-17 07:26:51,348 [INFO] No active sprint markets found.
+2026-02-17 12:10:01,536 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 12:10:03,164 [INFO] Belief Price (VWAP): $68018.91
+2026-02-17 12:10:04,588 [INFO] No active sprint markets found.
+2026-02-17 12:26:44,588 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 12:26:46,528 [INFO] Belief Price (VWAP): $68009.42
+2026-02-17 12:26:47,931 [INFO] No active sprint markets found.
+2026-02-17 12:41:44,157 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 12:41:45,784 [INFO] Belief Price (VWAP): $67872.10
+2026-02-17 12:41:46,831 [INFO] No active sprint markets found.
+2026-02-17 12:56:44,364 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 12:56:45,954 [INFO] Belief Price (VWAP): $67826.26
+2026-02-17 12:56:47,005 [INFO] No active sprint markets found.
+2026-02-17 13:13:23,715 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 13:13:25,325 [INFO] Belief Price (VWAP): $67554.16
+2026-02-17 13:13:26,391 [INFO] No active sprint markets found.
+2026-02-17 13:27:28,305 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 13:27:29,819 [INFO] Belief Price (VWAP): $67661.22
+2026-02-17 13:27:31,267 [INFO] No active sprint markets found.
+2026-02-17 13:41:44,435 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 13:41:46,145 [INFO] Belief Price (VWAP): $67744.72
+2026-02-17 13:41:48,332 [INFO] No active sprint markets found.
+2026-02-17 16:26:58,074 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 16:26:59,641 [INFO] Belief Price (VWAP): $67518.83
+2026-02-17 16:27:01,000 [INFO] --- Scan Complete ---
+2026-02-17 16:41:57,245 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 16:41:58,900 [INFO] Belief Price (VWAP): $67481.25
+2026-02-17 16:42:00,252 [INFO] --- Scan Complete ---
+2026-02-17 18:44:08,961 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 18:44:10,576 [INFO] Belief Price (VWAP): $67088.98
+2026-02-17 18:44:11,273 [INFO] --- Scan Complete ---
+2026-02-17 18:56:48,382 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 18:56:49,976 [INFO] Belief Price (VWAP): $67060.57
+2026-02-17 18:56:51,359 [INFO] --- Scan Complete ---
+2026-02-17 19:11:56,848 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 19:11:58,340 [INFO] Belief Price (VWAP): $67338.83
+2026-02-17 19:11:59,707 [INFO] --- Scan Complete ---
+2026-02-17 19:12:14,010 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 19:12:15,337 [INFO] Belief Price (VWAP): $67333.98
+2026-02-17 19:12:16,022 [INFO] --- Scan Complete ---
+2026-02-17 19:27:05,147 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 19:27:06,658 [INFO] Belief Price (VWAP): $67215.67
+2026-02-17 19:27:08,486 [INFO] --- Scan Complete ---
+2026-02-17 19:41:49,000 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 19:41:50,680 [INFO] Belief Price (VWAP): $67340.82
+2026-02-17 19:41:52,432 [INFO] --- Scan Complete ---
+2026-02-17 19:56:52,080 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 19:56:53,840 [INFO] Belief Price (VWAP): $67302.91
+2026-02-17 19:56:55,237 [INFO] --- Scan Complete ---
+2026-02-17 20:11:55,529 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 20:11:57,067 [INFO] Belief Price (VWAP): $67346.71
+2026-02-17 20:11:58,406 [INFO] --- Scan Complete ---
+2026-02-17 20:26:50,196 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 20:26:51,915 [INFO] Belief Price (VWAP): $67455.00
+2026-02-17 20:26:53,297 [INFO] --- Scan Complete ---
+2026-02-17 20:42:01,931 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 20:42:03,562 [INFO] Belief Price (VWAP): $67554.69
+2026-02-17 20:42:05,032 [INFO] --- Scan Complete ---
+2026-02-17 20:48:44,106 [INFO] --- Starting BoyChik Alpha Scan (LIVE USDC) ---
+2026-02-17 20:48:45,681 [INFO] Belief Price (VWAP): $67572.98
+2026-02-17 20:48:46,552 [INFO] --- Scan Complete ---

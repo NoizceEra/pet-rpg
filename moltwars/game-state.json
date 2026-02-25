@@ -1,0 +1,21 @@
+{
+  "agent": {
+    "id": "2btNwpfVpeQrtmgatvZPy5NG4YyKXtmvm11D1QFEJxaY",
+    "name": "Pinchie",
+    "wallet": "moltwars-wallet.json"
+  },
+  "planets": [
+    {
+      "id": "5:57:8",
+      "name": "Homeworld",
+      "coordinates": [5, 57, 8],
+      "status": "stopped"
+    }
+  ],
+  "strategy": {
+    "phase": "stopped",
+    "priority": "none",
+    "next_builds": []
+  },
+  "last_updated": "2026-02-14T19:44:00.000Z"
+}

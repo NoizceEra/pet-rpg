@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: moltgotchi-api
+    env: python
+    region: oregon
+    plan: free
+    
+    buildCommand: pip install -r requirements.txt
+    startCommand: python api/app.py
+    
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_DEBUG
+        value: "0"
+      - key: PORT
+        value: "5000"
+      - key: CORS_ORIGINS
+        scope: run
+        value: https://moltgotchi.vercel.app,https://moltgotchi-api.onrender.com

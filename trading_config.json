@@ -1,0 +1,56 @@
+{
+  "active_mode": "vulture_v3",
+  "global": {
+    "safety_floor_sol": 0.01,
+    "max_buy_sol": 0.15
+  },
+  "sniper": {
+    "enabled": true,
+    "entry_mode": "dip",
+    "source": "dex_boosted",
+    "min_volume_h1": 10000,
+    "risk_threshold": 30,
+    "dip_buy_threshold": 0.5,
+    "dynamic_sizing": {
+      "enabled": true,
+      "percent_of_balance": 0.5
+    }
+  },
+  "vulture": {
+    "enabled": true,
+    "loop_interval_seconds": 5,
+    "exit_stages": [
+      {
+        "roi": 1.1,
+        "sell_percent": 80,
+        "label": "TP-1: Principal + Profit Recovery"
+      },
+      {
+        "roi": 1.5,
+        "sell_percent": 50,
+        "label": "TP-2: Growth Harvest"
+      },
+      {
+        "roi": 2.0,
+        "sell_percent": 100,
+        "label": "TP-3: Final Exit"
+      }
+    ],
+    "spike_shaving": {
+      "enabled": true,
+      "jump_threshold": 0.15,
+      "sell_percent": 50
+    },
+    "stop_loss": {
+      "roi_threshold": 0.85,
+      "vol_decay_threshold": 0.3
+    }
+  },
+  "semantic": {
+    "duration_hours": 4,
+    "type": "conservative",
+    "risk": "small",
+    "pattern": "swing",
+    "project": "large cap"
+  }
+}

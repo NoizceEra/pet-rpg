@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-15T21:13:24.407313",
+  "market": "Will the United States win the most gold medals in the 2026 Winter Olympics?",
+  "strategy": "alpha_intelligence",
+  "size": 0,
+  "status": "PAPER_ENTERED",
+  "risk_score": 80,
+  "details": {
+    "trigger": "Risk Harvest (Price: 0.011)",
+    "provider": "manual",
+    "outcomes": [
+      "Yes",
+      "No"
+    ]
+  }
+}

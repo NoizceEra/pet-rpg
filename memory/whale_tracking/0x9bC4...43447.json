@@ -1,0 +1,41 @@
+{
+  "wallet_address": "0x9bC4ee064812e1588b214C709E962b3045D43447",
+  "last_updated": "2026-02-17T06:31:00Z",
+  "positions": [
+    {
+      "market_title": "Will the highest temperature in Atlanta be between 52-53°F on February 13?",
+      "side": "yes",
+      "shares": 4005.372936
+    },
+    {
+      "market_title": "Will the highest temperature in Chicago be 39°F or below on February 13?",
+      "side": "yes",
+      "shares": 2080.845236
+    },
+    {
+      "market_title": "Will the highest temperature in Atlanta be 51°F or below on February 13?",
+      "side": "yes",
+      "shares": 430.0
+    },
+    {
+      "market_title": "Will the highest temperature in Seattle be 37°F or below on February 13?",
+      "side": "yes",
+      "shares": 312.904
+    },
+    {
+      "market_title": "Will the highest temperature in Dallas be 57°F or below on February 13?",
+      "side": "yes",
+      "shares": 262.5
+    },
+    {
+      "market_title": "Will the highest temperature in Miami be between 76-77°F on February 12?",
+      "side": "yes",
+      "shares": 166.778721
+    },
+    {
+      "market_title": "Will the highest temperature in Atlanta be between 60-61°F on February 12?",
+      "side": "yes",
+      "shares": 15.384614
+    }
+  ]
+}

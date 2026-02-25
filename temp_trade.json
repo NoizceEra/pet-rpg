@@ -1,0 +1,7 @@
+{
+  "market_id": "c83a9079-f6cb-490d-89a8-7915960f5596",
+  "side": "yes",
+  "amount": 25.0,
+  "source": "autonomous-fastloop",
+  "reasoning": "BTC FastLoop: High divergence detected (13.5%). Probability at 0.51. Scaling into 15m momentum position."
+}

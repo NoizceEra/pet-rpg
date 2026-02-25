@@ -1,0 +1,14 @@
+python : 2026-02-14 10:50:04,917 [INFO] Overclocked Vulture v3.2 ACTIVE. Target: 1.0 SOL.
+At line:1 char:1
++ python skills/solana-sniper-bot/scripts/sniper.py > solana_sniper.log ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-02-14 10:5...arget: 1.0 SOL.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-02-14 10:50:05,920 [INFO] HTTP Request: GET https://api.dexscreener.com/token-boosts/latest/v1 "HTTP/1.1 200 OK"
+2026-02-14 10:50:05,922 [INFO] Scouting Boosted: F6Pak9EH2xrhcvzcvzW4Mz7s31HxccRTLzAZPLYkpump
+2026-02-14 10:50:06,530 [INFO] HTTP Request: GET 
+https://api.dexscreener.com/latest/dex/tokens/F6Pak9EH2xrhcvzcvzW4Mz7s31HxccRTLzAZPLYkpump "HTTP/1.1 200 OK"
+2026-02-14 10:50:07,502 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-14 10:50:08,283 [INFO] HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2026-02-14 10:50:08,285 [WARNING] Safety Floor reached. Pausing sniper.

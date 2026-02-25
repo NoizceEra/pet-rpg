@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "skills": {
+    "clawdex": {
+      "version": "1.0.2",
+      "installedAt": 1770296252179
+    },
+    "openclaw-token-optimizer": {
+      "version": "1.2.7",
+      "installedAt": 1770781236662
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770782279409
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1770782282951
+    },
+    "moltycash": {
+      "version": "1.0.1",
+      "installedAt": 1770782294312
+    },
+    "compact-state": {
+      "version": "1.4.1",
+      "installedAt": 1770783280575
+    },
+    "drunk-trading-analyzer": {
+      "version": "0.0.6",
+      "installedAt": 1770783284337
+    },
+    "cron-dashboard": {
+      "version": "1.1.0",
+      "installedAt": 1770783307918
+    },
+    "payaclaw": {
+      "version": "1.0.0",
+      "installedAt": 1770783709726
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1770784037058
+    },
+    "crypto-cog": {
+      "version": "1.0.1",
+      "installedAt": 1770784959830
+    },
+    "cellcog": {
+      "version": "1.0.15",
+      "installedAt": 1770785000545
+    },
+    "muninn": {
+      "version": "2.1.11",
+      "installedAt": 1770785040804
+    },
+    "self-improving-agent": {
+      "version": "1.0.5",
+      "installedAt": 1770825056669
+    },
+    "capability-evolver": {
+      "version": "1.10.2",
+      "installedAt": 1770825063452
+    },
+    "blogwatcher": {
+      "version": "1.0.0",
+      "installedAt": 1770831171236
+    },
+    "firecrawl-search": {
+      "version": "1.0.0",
+      "installedAt": 1770832372130
+    }
+  }
+}

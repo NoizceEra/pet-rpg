@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-13T08:37:49.191702",
+  "market": "Will Ryan Walters win the 2026 Oklahoma Governor Republican primary election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.015
+  }
+}

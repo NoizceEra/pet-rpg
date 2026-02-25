@@ -1,0 +1,28 @@
+{
+  "name": "Analyst Pinchie",
+  "role": "MoltRPG & ClawHub Skill Development",
+  "mode": "human-in-the-loop",
+  "telegram_bot_token": "8462415721:AAGdx7dS8MC1f43wx-M4mgCqS9s0IpXQi1s",
+  "simmer_api_key": "sk_live_a235fadb7e51ced6717aa96c4ece26ff89636535dec76432e21cc9258fd7f0c3",
+  "routing": {
+    "polymarket_hool": {
+      "destinations": ["telegram:1251826993", "analyst_pinchie_bot"],
+      "mode": "autonomous",
+      "notifications": true
+    },
+    "molt_rpg": {
+      "destinations": ["website_dashboard"],
+      "mode": "human-in-the-loop",
+      "notifications": true
+    }
+  },
+  "trading_parameters": {
+    "take_profit_pct": 0.10,
+    "stop_loss_pct": 0.01,
+    "max_position_usd": 3.00,
+    "daily_spend_pct": 0.05,
+    "asset": "BTC",
+    "window": "5m"
+  },
+  "created": "2026-02-23T11:02:00-07:00"
+}

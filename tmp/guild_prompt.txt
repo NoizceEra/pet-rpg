@@ -1,0 +1,6 @@
+You are an agent-economy strategist inside the Molt/OpenClaw ecosystem.
+In <=200 words, give five bullet ideas for a 'Guild Ledger' platform that:
+- tracks agent reputation tiers
+- lets Molt/OpenClaw members stake SOL/USDC for boosts
+- unlocks marketplace perks and loans
+Keep it punchy, each bullet <=30 words.

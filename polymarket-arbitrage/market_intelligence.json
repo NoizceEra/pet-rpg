@@ -1,0 +1,251 @@
+{
+  "timestamp": "2026-02-15T07:57:25.661844",
+  "assets": {
+    "BTC-USD": {
+      "news": [
+        {
+          "uuid": "5592b4f2-1313-3534-88b1-755f1573c5fc",
+          "title": "Ross Gerber Slams Trump And Melania Memecoin Hype For Spooking Crypto Investors: 'Money Doesn't Come Back'",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/ross-gerber-slams-trump-melania-233111736.html",
+          "providerPublishTime": "2026-02-14T23:31:11.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/ocpjyrvhlaviCnaDb3EWzg--~B/aD02Nzg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/5dff29a4f50f0f72ec1834a4826657ac",
+                "width": 1024,
+                "height": 678,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/Pi1b4J4wW8zjBTNUEGQGQg--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/5dff29a4f50f0f72ec1834a4826657ac",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "9e8fc3a0-4a12-3891-956b-872995abb76b",
+          "title": "Jim Chanos Slams Bitcoin Play Strategy For Bragging About Stability Of Preferred Shares: 'Can You Imagine Any Other CEO With A Plunging Stock\u00e2\u20ac\u00a6'",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/jim-chanos-slams-bitcoin-play-003117862.html",
+          "providerPublishTime": "2026-02-15T00:31:17.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/IfUO8JW.u4EguN1VnLt0pg--~B/aD01MTI7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/f75a61c81a3f737cf1ffdc7e9162a6ec",
+                "width": 1024,
+                "height": 512,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/BvYk3fpEQqJyQI.48IO0xw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/f75a61c81a3f737cf1ffdc7e9162a6ec",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "MSTR",
+            "BTC-USD",
+            "GOOG",
+            "META",
+            "AMZN"
+          ]
+        },
+        {
+          "uuid": "790c1d4c-69fa-3dbb-907d-cbdbe029644a",
+          "title": "What bitcoin's historical patterns tell us about the sell-off",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/bitcoins-historical-patterns-tell-us-190025216.html",
+          "providerPublishTime": "2026-02-14T19:00:25.000Z",
+          "type": "VIDEO",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/GWbftgwYETeAkHuq6Q5Tqg--~B/aD0zNjU0O3c9NjQ5ODthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/76dbe4b0-0859-11f1-bc75-36b89c74920c",
+                "width": 6498,
+                "height": 3654,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/JxuQch_TCp1auBzjRJskgw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/os/creatr-uploaded-images/2026-02/76dbe4b0-0859-11f1-bc75-36b89c74920c",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD"
+          ]
+        }
+      ]
+    },
+    "ETH-USD": {
+      "news": [
+        {
+          "uuid": "dd9ca242-28c4-334d-89e6-661b321200dc",
+          "title": "Coinbase Only 22% To Beat Its Earnings As Bitcoin, Ethereum, XRP Drag Down COIN",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/coinbase-only-22-beat-earnings-013112399.html",
+          "providerPublishTime": "2026-02-14T01:31:12.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/fbgwhV9GJLaWQoquave74A--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/66eb8e72c51c0d75e60babc0e5b2bae7",
+                "width": 1024,
+                "height": 576,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/AvDNoLSyLmKRDqXulyYCIw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/66eb8e72c51c0d75e60babc0e5b2bae7",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD",
+            "XRP-USD",
+            "ETH-USD",
+            "GOOG",
+            "META",
+            "AMZN"
+          ]
+        },
+        {
+          "uuid": "6452a1d5-33fb-343e-8d59-bce3f592ecaa",
+          "title": "Top Cryptocurrencies Rise; Bitcoin Tops $68,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-rise-bitcoin-tops-205941997.html",
+          "providerPublishTime": "2026-02-13T20:59:41.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD",
+            "BNB-USD",
+            "SOL-USD"
+          ]
+        },
+        {
+          "uuid": "c82b7d92-4740-3869-b25a-0e11a426c17e",
+          "title": "Robinhood CEO Vlad Tenev Foresees Big Year Ahead For The Platform's Prediction Market Business Amid Winter Olympics, FIFA World Cup Buildup",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/robinhood-ceo-vlad-tenev-foresees-110106001.html",
+          "providerPublishTime": "2026-02-13T11:01:06.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/_qT5Jxqqt7Xzn9rIQOaVzw--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/3d785fb63e54ee10a0f2a8532dfc1bdd",
+                "width": 1024,
+                "height": 683,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/49ZSttRXPZKKTPpwhpv52w--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/3d785fb63e54ee10a0f2a8532dfc1bdd",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "HOOD",
+            "DIS"
+          ]
+        }
+      ]
+    },
+    "SOL-USD": {
+      "news": [
+        {
+          "uuid": "dd9ca242-28c4-334d-89e6-661b321200dc",
+          "title": "Coinbase Only 22% To Beat Its Earnings As Bitcoin, Ethereum, XRP Drag Down COIN",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/coinbase-only-22-beat-earnings-013112399.html",
+          "providerPublishTime": "2026-02-14T01:31:12.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/fbgwhV9GJLaWQoquave74A--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/66eb8e72c51c0d75e60babc0e5b2bae7",
+                "width": 1024,
+                "height": 576,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/AvDNoLSyLmKRDqXulyYCIw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/benzinga_79/66eb8e72c51c0d75e60babc0e5b2bae7",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD",
+            "XRP-USD",
+            "ETH-USD",
+            "GOOG",
+            "META",
+            "AMZN"
+          ]
+        },
+        {
+          "uuid": "6452a1d5-33fb-343e-8d59-bce3f592ecaa",
+          "title": "Top Cryptocurrencies Rise; Bitcoin Tops $68,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-rise-bitcoin-tops-205941997.html",
+          "providerPublishTime": "2026-02-13T20:59:41.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD",
+            "BNB-USD",
+            "SOL-USD"
+          ]
+        },
+        {
+          "uuid": "f45fa7ed-354c-313b-b3f0-af843046e50e",
+          "title": "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-fall-bitcoin-drops-205921510.html",
+          "providerPublishTime": "2026-02-12T20:59:21.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T16:43:06.138678+00:00",
+    "data": {
+      "message": "THE_BRAIN activated - Survival mode. Hunting for profits."
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T16:54:15.165466+00:00",
+    "data": {
+      "message": "BTC 5-15min specialist activated"
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T16:54:15.717146+00:00",
+    "data": {
+      "message": "Critical error: 0"
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:07:40.939766+00:00",
+    "data": {
+      "message": "BTC 5-15min specialist activated"
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:07:41.554985+00:00",
+    "data": {
+      "message": "Critical error: 0"
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:08:27.576697+00:00",
+    "data": {
+      "message": "BTC specialist active"
+    },
+    "sent": true
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:23:07.033408+00:00",
+    "data": {
+      "message": "BTC specialist v3.4 started"
+    },
+    "sent": false
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:31:24.969859+00:00",
+    "data": {
+      "message": "BTC 5-15min window specialist v3.5 started"
+    },
+    "sent": false
+  },
+  {
+    "type": "system",
+    "timestamp": "2026-02-25T17:33:40.086475+00:00",
+    "data": {
+      "message": "BTC 5-15min specialist v3.6 started (Simmer + auto-redeem)"
+    },
+    "sent": false
+  }
+]

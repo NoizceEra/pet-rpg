@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-11T07:27:13.733648",
+  "market": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.015
+  }
+}

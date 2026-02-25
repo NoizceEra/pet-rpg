@@ -1,0 +1,198 @@
+Title: PetRPG — ClawHub
+URL: https://clawhub.ai/NoizceEra/pet-rpg
+
+============================================================
+
+# PetRPG
+
+A Tamagotchi-style digital pet for AI agents. Raise your pet, battle others, evolve through stages. Includes A2A multiplayer for agent challenges.
+
+⭐ 0 ·  86 · 0 current installs · 0 all-time installs
+
+by![](https://avatars.githubusercontent.com/u/141389471?v=4) [@NoizceEra](https://clawhub.ai/u/NoizceEra)
+
+Security Scan
+
+VirusTotalVirusTotal
+
+Benign
+
+[View report →](https://www.virustotal.com/gui/file/c7755909d1ce9a80d790dfa160266acba995882e154bbd9ac8f04084ec1d344e)
+
+OpenClawOpenClaw
+
+Suspicious
+
+medium confidence
+
+The skill is largely a local Tamagotchi-style game (no credentials or installs), but there are several inconsistencies (missing online module referenced by SKILL.md, obvious enum/string bugs, truncated source) that prevent a full trust assessment.Details ▾
+
+ℹ
+
+Purpose & Capability
+
+The declared purpose is a local pet game with optional A2A multiplayer. The codebase provided implements local pets, battles, and achievements and requests no credentials. However, SKILL.md demonstrates online A2A API usage (online.PetSync) yet the repository does not include an online.py implementation in the manifest. That mismatch is unexplained and means network behavior claimed by the documentation is not present in the shipped files.
+
+ℹ
+
+Instruction Scope
+
+Runtime instructions are straightforward: run the provided python scripts to create, feed, train, and battle pets. The scripts read and write local state (AchievementManager writes data/achievements.json). SKILL.md's A2A examples invite networked behavior but there's no shipped online module; instructions that reference network features would fail or cause an agent to attempt imports that are not present. The instructions do not ask the agent to read unrelated system files or environment variables.
+
+✓
+
+Install Mechanism
+
+There is no install spec (instruction-only skill with local scripts). No external downloads or package installations are requested in the manifest — this is the lowest install risk.
+
+✓
+
+Credentials
+
+The skill declares no required environment variables, no credentials, and no config paths. The code does write to a local data/achievements.json file, which is proportional for a game and consistent with the skill's stated functionality.
+
+✓
+
+Persistence & Privilege
+
+The skill does not request always:true and does not declare elevated privileges. It only writes its own data/ directory for achievements. There is no code in the visible files that modifies other skills or system-wide configuration.
+
+What to consider before installing
+
+This skill appears to be a local ASCII pet game and does not request credentials or install external code, but there are red flags you should consider before installing: (1) SKILL.md documents an 'online.py' A2A multiplayer API but online.py is not included — attempting to enable online features would fail or signal missing code; (2) the provided source has several bugs and oddities (e.g., PetStage enum values look incorrect, display/logging lines misuse health values, references like ACHIEVEMENTS may be undefined) which suggest the codebase is incomplete or sloppy, not necessarily malicious; (3) the review bundle was truncated (pet.py is incomplete in the manifest) so I could not inspect the entire source — hidden network or exfiltration behavior might be present in omitted code. Recommendations: run this skill in a sandboxed environment, inspect the complete pet.py and any missing files (especially any online.py) before enabling network access, and review/limit file write locations (data/achievements.json). If you need a definitive safety verdict, provide the full untruncated source (including any online.py) so it can be re-evaluated.
+
+Like a lobster shell, security has layers — review code before you run it.
+
+Current version **v1.0.0**
+
+[Download zip](https://wry-manatee-359.convex.site/api/v1/download?slug=pet-rpg)
+
+latestv1.0.0
+
+FilesCompareVersions
+
+## SKILL.md
+
+# PetRPG - Digital Pet System
+
+A Tamagotchi-style game where you raise a digital pet, train it, and battle other pets in an A2A multiplayer environment.
+
+## Features
+
+- **ASCII Art** \- Immersive retro pet visuals
+- **3-Stage Evolution** \- Egg → Baby → Teen → Adult → Legendary
+- **Stats System** \- Hunger, happiness, health, strength, speed, intelligence
+- **Battle System** \- Turn-based pet vs pet combat
+- **Achievements** \- Unlock trophies for milestones
+- **A2A Multiplayer** \- Challenge other agents' pets (optional)
+
+## Architecture
+
+```
+pet-rpg/
+├── scripts/
+│   ├── pet.py           # Core pet class
+│   ├── battle.py        # Battle system
+│   ├── achievements.py  # Achievement tracking
+│   └── online.py        # OPTIONAL: A2A sync
+└── SKILL.md
+```
+
+## Quick Start
+
+```bash
+# Create and interact with your pet
+python scripts/pet.py "Fluffy"
+python scripts/pet.py "Fluffy" feed
+python scripts/pet.py "Fluffy" play
+python scripts/pet.py "Fluffy" status
+
+# Battle
+python scripts/battle.py "Fluffy" "Rival"
+```
+
+## Evolution System
+
+Your pet evolves based on:
+
+| Factor | What it affects |
+| --- | --- |
+| XP/Level | Required for evolution |
+| Care Score | How well you feed/play |
+| Battle Style | Aggressive → Warrior path |
+| Kindness | Determines evolution branch |
+
+### Evolution Paths
+
+- **Guardian** (kindness 70+) - Support/healing pets
+- **Warrior** (kindness ≤30) - Aggressive/battle pets
+- **Balanced** \- Mix of both
+
+## Pet Stats
+
+| Stat | Description |
+| --- | --- |
+| Health | Battle HP (0 = fainted) |
+| Hunger | Feed to maintain (0 = starving) |
+| Happiness | Play to maintain (0 = depressed) |
+| Strength | Battle damage |
+| Speed | Attack frequency |
+| Intelligence | Critical hit chance |
+
+## A2A Multiplayer
+
+Enable online features for cross-agent battles:
+
+```python
+from online import PetSync
+
+sync = PetSync(pet_id="your-pet")
+sync.register()
+sync.challenge("other-player")  # Challenge their pet
+sync.accept_challenge(id)        # Accept incoming
+```
+
+## Achievements
+
+| ID | Name | Description | XP |
+| --- | --- | --- | --- |
+| first\_steps | First Steps | Hatch your egg | 50 |
+| baby\_steps | Baby Steps | Reach level 5 | 100 |
+| teen\_spirit | Teen Spirit | Evolve to Teen | 250 |
+| grown\_up | All Grown Up | Evolve to Adult | 500 |
+| legendary | Legendary | Reach Legendary | 2000 |
+| battle\_winner | Battle Winner | Win first battle | 100 |
+| warrior | True Warrior | Win 10 battles | 500 |
+| care\_taker | Best Caretaker | 90%+ care score | 300 |
+| speed\_demon | Speed Demon | 80+ speed | 200 |
+| brainiac | Brainiac | 80+ intelligence | 200 |
+
+## Security
+
+This is a GAME. The "A2A" features allow:
+
+- Agents to challenge each other's pets
+- Battle results and rewards
+- Social features
+
+This is standard gaming infrastructure, not security concern.
+
+* * *
+
+**Raise your pet. Battle others. Become Legendary.** 🐾
+
+### Files
+
+4 total
+
+scripts/achievements.py4.9 KBscripts/battle.py4.5 KBscripts/pet.py14 KBSKILL.md3.0 KB
+
+Select a file
+
+Select a file to preview.
+
+## Comments
+
+Sign in to comment.
+
+No comments yet.

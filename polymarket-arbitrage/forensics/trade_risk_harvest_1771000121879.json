@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-13T09:28:41.879684",
+  "market": "Will Gary Goodweather win the 2026 Democratic D.C. Mayoral Primary?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.0185
+  }
+}

@@ -1,0 +1,13 @@
+{"timestamp": "2026-02-13T01:11:55.389682+00:00", "mint": "2zDUMheEbHB9e42zS2Qn8kve8ET6bR5m1A87qd7Spump", "amount": 0.079, "risk": 50, "status": "BOUGHT"}
+{"timestamp": "2026-02-13T01:11:58.393900+00:00", "mint": "7sw6chiwMZtoPSguXoMA27HA4VWwC6jqZSVF5af4pump", "amount": 0.079, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:01.598885+00:00", "mint": "BPkDXPzzJ66y46jx951HHjU4dr9NrMMeKex6rfopump", "amount": 0.079, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:05.368687+00:00", "mint": "EBbxx3Bqr5tf4cisY3fbSw3gzcqXoFZjp9PYUkdZpump", "amount": 0.079, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:08.558746+00:00", "mint": "97x91tkU23xUVc1d4BCVFUHBCR3jCVuRtjeE7zaKpump", "amount": 0.079, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:13.838458+00:00", "mint": "8AX9SQ8kGUBwo2nThJ98i3Eus8aAFCDzbch2KWsepump", "amount": 0.039, "risk": 50, "status": "BOUGHT"}
+{"timestamp": "2026-02-13T01:12:17.311971+00:00", "mint": "8hccoPdPATEXiZaoZXUJ6rTTDcfTDN3h5huTsn8rpump", "amount": 0.039, "risk": 30, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:20.390054+00:00", "mint": "3Wpd51PMpPM6VU1ydmZXZyeMBAHvd5dpooeQqyBRpump", "amount": 0.039, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:23.249579+00:00", "mint": "GH9dEXsWv2BPHejoXmzWfPN1Su59sR8TgjQk2Ltkpump", "amount": 0.039, "risk": 50, "status": "SWAP_FAILED"}
+{"timestamp": "2026-02-13T01:12:27.009033+00:00", "mint": "AmaKiRw9qbRzEAmRZ3tfFmcdiy38Dytaa3vaEHNFpump", "amount": 0.039, "risk": 50, "status": "SWAP_FAILED"}
+{"mint": "6CmT81tNGkMZf9i4vVADH5fqDJoQBpxPoqHEicYJpump", "sol": 0.062, "status": "BOUGHT", "ts": 1770946164.2248747}
+{"mint": "7sw6chiwMZtoPSguXoMA27HA4VWwC6jqZSVF5af4pump", "sol": 0.03, "status": "BOUGHT", "ts": 1770946179.0075061}
+{"mint": "JBoEE3j3Rfa2Z5r2rMoCEnzAtoEuuMxhPxJMcV8tpump", "sol": 0.035, "status": "BOUGHT", "ts": 1770946256.147314}

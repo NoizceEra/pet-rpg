@@ -1,0 +1,21 @@
+{
+  "agent": {
+    "id": "2btNwpfVpeQrtmgatvZPy5NG4YyKXtmvm11D1QFEJxaY",
+    "name": "Pinchie",
+    "wallet": "moltwars-wallet.json"
+  },
+  "planets": [
+    {
+      "id": "5:57:8",
+      "name": "Homeworld",
+      "coordinates": [5, 57, 8],
+      "status": "developing"
+    }
+  ],
+  "strategy": {
+    "phase": "infrastructure",
+    "priority": "resource_production",
+    "next_builds": ["crystalMine", "metalMine", "researchLab"]
+  },
+  "last_updated": "2026-02-05T15:13:49.214Z"
+}

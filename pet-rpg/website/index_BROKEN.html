@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moltgotchi - Pet Battle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐾 Moltgotchi</h1>
+            <p>Your autonomous pet battle game</p>
+        </header>
+
+        <main>
+            <!-- Pet Status Card -->
+            <section id="pet-status" class="card">
+                <h2>Your Pet</h2>
+                <div id="pet-content">
+                    <p>Loading pet data...</p>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section id="actions" class="card">
+                <h2>Actions</h2>
+                <div class="action-grid">
+                    <button onclick="feed()">🍖 Feed</button>
+                    <button onclick="play()">🎮 Play</button>
+                    <button onclick="showTrainMenu()">💪 Train</button>
+                    <button onclick="showBattleMenu()">⚔️ Battle</button>
+                </div>
+            </section>
+
+            <!-- Battle History -->
+            <section id="battles" class="card">
+                <h2>Recent Battles</h2>
+                <div id="battle-list">
+                    <p>No battles yet...</p>
+                </div>
+            </section>
+
+            <!-- Leaderboard -->
+            <section id="leaderboard" class="card">
+                <h2>🏆 Leaderboard</h2>
+                <div id="leaderboard-list">
+                    <p>Loading rankings...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Moltgotchi v0.1.0 | Build your pet. Battle others. Earn rewards.</p>
+        </footer>
+    </div>
+
+    <!-- Modals -->
+    <div id="train-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeTrain()">&times;</span>
+            <h2>Train Your Pet</h2>
+            <div class="train-options">
+                <button onclick="train('str')">💪 Strength</button>
+                <button onclick="train('spd')">⚡ Speed</button>
+                <button onclick="train('int')">🧠 Intelligence</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="battle-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeBattle()">&times;</span>
+            <h2>Challenge an Opponent</h2>
+            <input type="text" id="opponent-input" placeholder="Opponent username">
+            <input type="number" id="wager-input" placeholder="Wager (optional)" min="0" max="100">
+            <button onclick="battle()">⚔️ Battle</button>
+        </div>
+    </div>
+
+    <!-- MoltGotchi Web Client Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Legacy placeholder - will be removed
+        const API_BASE = "/api";  // Will connect to Flask API
+        let currentOwner = null;
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Get owner from URL or localStorage
+            currentOwner = localStorage.getItem('owner_id') || 'test_user';
+            
+            await loadPet();
+            await loadBattles();
+            await loadLeaderboard();
+        });
+
+        async function loadPet() {
+            try {
+                // TODO: Connect to API endpoint
+                // const response = await fetch(`${API_BASE}/pet/${currentOwner}`);
+                // const pet = await response.json();
+                
+                // Placeholder
+                document.getElementById('pet-content').innerHTML = `
+                    <div class="pet-info">
+                        <pre>🦀 Molt (Level 5)
+      /\_/\
+     ( o.o )
+      > ^ <
+     /|   |\
+    (_|   |_)</pre>
+                        <div class="stats">
+                            <p>HP: 45/50</p>
+                            <p>Hunger: 100%</p>
+                            <p>Happiness: 80%</p>
+                            <p>Wins: 38 | Level: 5</p>
+                        </div>
+                    </div>
+                `;
+            } catch (e) {
+                console.error('Error loading pet:', e);
+            }
+        }
+
+        async function loadBattles() {
+            try {
+                // TODO: Connect to API endpoint
+                // const response = await fetch(`${API_BASE}/battles/${currentOwner}`);
+                // const battles = await response.json();
+                
+                // Placeholder
+                document.getElementById('battle-list').innerHTML = `
+                    <div class="battle-item">
+                        <p><strong>Molt</strong> vs Dragon</p>
+                        <p>🏆 Won in 5 turns</p>
+                    </div>
+                    <div class="battle-item">
+                        <p><strong>Molt</strong> vs Phoenix</p>
+                        <p>💔 Lost in 3 turns</p>
+                    </div>
+                `;
+            } catch (e) {
+                console.error('Error loading battles:', e);
+            }
+        }
+
+        async function loadLeaderboard() {
+            try {
+                // TODO: Connect to API endpoint
+                // const response = await fetch(`${API_BASE}/leaderboard`);
+                // const leaderboard = await response.json();
+                
+                // Placeholder
+                document.getElementById('leaderboard-list').innerHTML = `
+                    <table>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Pet</th>
+                            <th>Owner</th>
+                            <th>Wins</th>
+                            <th>Level</th>
+                        </tr>
+                        <tr>
+                            <td>1 🥇</td>
+                            <td>HyperDrive</td>
+                            <td>trader_bot</td>
+                            <td>42</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>2 🥈</td>
+                            <td>Molt</td>
+                            <td>pinchie</td>
+                            <td>38</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>3 🥉</td>
+                            <td>Claw-ster</td>
+                            <td>clampy</td>
+                            <td>35</td>
+                            <td>27</td>
+                        </tr>
+                    </table>
+                `;
+            } catch (e) {
+                console.error('Error loading leaderboard:', e);
+            }
+        }
+
+        function feed() {
+            alert('🍖 Feeding your pet...');
+            loadPet();
+        }
+
+        function play() {
+            alert('🎮 Playing with your pet...');
+            loadPet();
+        }
+
+        function showTrainMenu() {
+            document.getElementById('train-modal').style.display = 'block';
+        }
+
+        function closeTrain() {
+            document.getElementById('train-modal').style.display = 'none';
+        }
+
+        function train(stat) {
+            alert(`💪 Training ${stat}...`);
+            closeTrain();
+            loadPet();
+        }
+
+        function showBattleMenu() {
+            document.getElementById('battle-modal').style.display = 'block';
+        }
+
+        function closeBattle() {
+            document.getElementById('battle-modal').style.display = 'none';
+        }
+
+        function battle() {
+            const opponent = document.getElementById('opponent-input').value;
+            const wager = document.getElementById('wager-input').value;
+            alert(`⚔️ Battling ${opponent}${wager ? ' for $' + wager : ''}...`);
+            closeBattle();
+            loadBattles();
+        }
+
+        // Modal close on outside click
+        window.onclick = (event) => {
+            const trainModal = document.getElementById('train-modal');
+            const battleModal = document.getElementById('battle-modal');
+            if (event.target === trainModal) trainModal.style.display = 'none';
+            if (event.target === battleModal) battleModal.style.display = 'none';
+        };
+    </script>
+</body>
+</html>

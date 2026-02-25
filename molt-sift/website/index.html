@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sift - Verify Your Data. Know It's Real.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🦀</text></svg>">
+    <style>
+        /* MOLT SIFT - CONSUMER-FRIENDLY VERSION */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #87ceeb 0%, #1dd1a1 50%, #ffd93d 100%) !important;
+            font-family: 'Fredoka', sans-serif;
+            color: #051d40;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(0deg, transparent 24%, rgba(255, 0, 127, .05) 25%, rgba(255, 0, 127, .05) 26%, transparent 27%, transparent 74%, rgba(255, 0, 127, .05) 75%, rgba(255, 0, 127, .05) 76%, transparent 77%, transparent),
+                linear-gradient(90deg, transparent 24%, rgba(255, 0, 127, .05) 25%, rgba(255, 0, 127, .05) 26%, transparent 27%, transparent 74%, rgba(255, 0, 127, .05) 75%, rgba(255, 0, 127, .05) 76%, transparent 77%, transparent);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* NAVIGATION */
+        nav.navbar {
+            background: linear-gradient(90deg, #0a3d62 0%, #051d40 100%) !important;
+            border-bottom: 6px solid #ffff00 !important;
+            box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3) !important;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            font-family: 'Press Start 2P', cursive;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav.navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            font-size: 32px;
+            animation: bounce 1s infinite;
+            display: block;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .nav-brand h1 {
+            font-size: 16px;
+            color: #00ffff;
+            text-shadow: 3px 3px #ff006e;
+            letter-spacing: 2px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .tagline {
+            font-size: 8px;
+            color: #ffff00;
+            letter-spacing: 1px;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-size: 10px;
+            color: #fff8e7;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+            font-family: 'Press Start 2P', cursive;
+            display: inline-block;
+        }
+
+        .nav-link:hover {
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .nav-link.btn-neon {
+            background: #00ffff;
+            color: #051d40;
+            border: 3px solid #051d40;
+            padding: 8px 12px;
+            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        /* BUTTONS */
+        .btn-neon,
+        .btn-coral {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 12px;
+            border: 4px solid #051d40;
+            padding: 12px 24px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+            transition: all 0.1s;
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+            display: inline-block;
+        }
+
+        .btn-neon {
+            background: #00ffff;
+            color: #051d40;
+        }
+
+        .btn-neon:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+            background: #ffff00;
+        }
+
+        .btn-neon:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-coral {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-coral:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+            background: #ff006e;
+        }
+
+        .btn-coral:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-large {
+            padding: 16px 32px;
+            font-size: 14px;
+        }
+
+        /* HERO SECTION */
+        section.hero {
+            position: relative;
+            padding: 80px 0 120px 0;
+            overflow: hidden;
+            margin-top: 20px;
+            background: transparent;
+            margin: 0;
+        }
+
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 200%;
+            height: 100px;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0,50 Q300,0 600,50 T1200,50 L1200,120 L0,120 Z" fill="%231dd1a1"/></svg>') repeat-x;
+            background-size: 600px 100px;
+            animation: wave 15s linear infinite;
+            opacity: 0.7;
+        }
+
+        .wave1 { bottom: 0; animation-delay: 0s; }
+        .wave2 { bottom: 10px; animation-delay: -5s; }
+        .wave3 { bottom: 20px; animation-delay: -10s; }
+
+        @keyframes wave {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(600px); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .pixel-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 48px;
+            color: #00ffff;
+            text-shadow: 4px 4px #ff006e, 8px 8px #ffff00;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            animation: glow 2s ease-in-out infinite;
+            display: block;
+        }
+
+        @keyframes glow {
+            0%, 100% { text-shadow: 4px 4px #ff006e, 8px 8px #ffff00; }
+            50% { text-shadow: 4px 4px #ffff00, 8px 8px #ff006e; }
+        }
+
+        .pixel-subtitle {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 16px;
+            color: #051d40;
+            text-shadow: 2px 2px #fff8e7;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            display: block;
+        }
+
+        .hero-desc {
+            font-size: 18px;
+            color: #051d40;
+            margin-bottom: 40px;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .beach-footer {
+            font-size: 32px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* SECTIONS */
+        section {
+            position: relative;
+            z-index: 1;
+            padding: 80px 0;
+            margin: 0;
+        }
+
+        .how-it-works {
+            background: linear-gradient(135deg, #fff8e7 0%, #ffd93d 100%) !important;
+            border-top: 6px solid #ff6b6b;
+            border-bottom: 6px solid #1dd1a1;
+        }
+
+        #post {
+            background: linear-gradient(135deg, #87ceeb 0%, #00ffff 100%) !important;
+            border-top: 6px solid #ff006e;
+        }
+
+        .trending-section {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff006e 100%) !important;
+            border-top: 6px solid #ffd93d;
+            border-bottom: 6px solid #00ffff;
+        }
+
+        #browse {
+            background: linear-gradient(135deg, #1dd1a1 0%, #0a3d62 100%) !important;
+        }
+
+        .testimonials-section {
+            background: linear-gradient(135deg, #fff8e7 0%, #ffff00 100%) !important;
+            border-top: 6px solid #00ffff;
+        }
+
+        .pricing-section {
+            background: linear-gradient(135deg, #00ffff 0%, #87ceeb 100%) !important;
+            border-top: 6px solid #ff006e;
+        }
+
+        #stats {
+            background: linear-gradient(135deg, #ffd93d 0%, #ff6b6b 100%) !important;
+            border-top: 6px solid #00ffff;
+        }
+
+        .section-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 28px;
+            color: #051d40;
+            text-align: center;
+            margin-bottom: 60px;
+            letter-spacing: 2px;
+            display: block;
+            text-shadow: 2px 2px #00ffff;
+        }
+
+        #browse .section-title {
+            color: #00ffff;
+        }
+
+        /* STEPS */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .step-card {
+            background: white;
+            border: 6px solid #051d40;
+            padding: 30px;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .step-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .step-number {
+            font-size: 40px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .step-card h4 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            color: #00ffff;
+            text-shadow: 1px 1px #ff006e;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .step-card p {
+            font-size: 14px;
+            color: #051d40;
+            line-height: 1.6;
+        }
+
+        /* USE CASES */
+        .use-cases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .use-case-card {
+            background: white;
+            border: 5px solid #051d40;
+            padding: 20px;
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.15);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .use-case-card:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 9px 9px 0 rgba(0, 0, 0, 0.15);
+            background: #fffaeb;
+        }
+
+        .use-case-emoji {
+            font-size: 48px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .use-case-card h4 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 11px;
+            color: #ff006e;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .use-case-card p {
+            font-size: 12px;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        /* FORMS */
+        .form-container {
+            background: white;
+            padding: 40px;
+            border: 8px solid #051d40;
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .template-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .template-btn {
+            background: #f0f0f0;
+            border: 4px solid #051d40;
+            padding: 12px;
+            cursor: pointer;
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 9px;
+            transition: all 0.2s;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .template-btn:hover {
+            background: #ffff00;
+            transform: translate(-2px, -2px);
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .template-btn.active {
+            background: #00ffff;
+            border-color: #ff006e;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 11px;
+            color: #051d40;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 4px solid #051d40;
+            background: #fff8e7;
+            font-family: 'Fredoka', sans-serif;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #00ffff;
+            background: #fffeff;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .price-tag {
+            background: #ffff00;
+            color: #051d40;
+            padding: 8px 12px;
+            border: 3px solid #051d40;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 10px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        /* TRENDING */
+        .trending-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .trending-card {
+            background: white;
+            border: 6px solid #051d40;
+            padding: 20px;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+        }
+
+        .trending-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .trending-badge {
+            display: inline-block;
+            background: #ff006e;
+            color: white;
+            padding: 6px 12px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 8px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            border: 2px solid #051d40;
+        }
+
+        .trending-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 12px;
+            color: #00ffff;
+            text-shadow: 1px 1px #ff006e;
+            margin-bottom: 10px;
+        }
+
+        .trending-count {
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .trending-btn {
+            background: #1dd1a1;
+            color: white;
+            border: 4px solid #051d40;
+            padding: 10px 15px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 9px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.1s;
+        }
+
+        .trending-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* TESTIMONIALS */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .testimonial-card {
+            background: white;
+            border: 6px solid #051d40;
+            padding: 25px;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .testimonial-stars {
+            font-size: 18px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .testimonial-text {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 10px;
+            color: #ff006e;
+            text-shadow: 1px 1px #00ffff;
+        }
+
+        /* PRICING */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .pricing-card {
+            background: white;
+            border: 6px solid #051d40;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .pricing-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .pricing-card.featured {
+            background: #ffff00;
+            transform: scale(1.05);
+        }
+
+        .pricing-card h3 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            color: #00ffff;
+            text-shadow: 1px 1px #ff006e;
+            margin-bottom: 20px;
+        }
+
+        .pricing-amount {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 32px;
+            color: #ff006e;
+            text-shadow: 2px 2px #ffff00;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .pricing-details {
+            font-size: 12px;
+            color: #333;
+            text-align: left;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .pricing-details li {
+            list-style: none;
+            margin-bottom: 8px;
+        }
+
+        .pricing-details li:before {
+            content: "✓ ";
+            color: #1dd1a1;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .pricing-btn {
+            background: #1dd1a1;
+            color: white;
+            border: 4px solid #051d40;
+            padding: 12px 24px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.1s;
+            width: 100%;
+        }
+
+        .pricing-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* STATS */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            border: 6px solid #051d40;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-card h4 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 11px;
+            color: #00ffff;
+            text-shadow: 1px 1px #ff006e;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .stat-card p {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 28px;
+            color: #ff006e;
+            text-shadow: 2px 2px #ffff00;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #051d40;
+            color: #00ffff;
+            text-align: center;
+            padding: 30px 0;
+            border-top: 6px solid #ffff00;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 10px;
+        }
+
+        footer a {
+            color: #00ffff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: all 0.2s;
+        }
+
+        footer a:hover {
+            color: #ffff00;
+            text-shadow: 0 0 10px #ffff00;
+        }
+
+        /* SOCIAL PROOF */
+        .social-proof {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 3px dashed #051d40;
+            margin-bottom: 40px;
+            backdrop-filter: blur(5px);
+        }
+
+        .social-proof p {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 11px;
+            color: #051d40;
+            margin: 8px 0;
+            letter-spacing: 1px;
+        }
+
+        .social-proof .big {
+            font-size: 24px;
+            color: #ff006e;
+            text-shadow: 2px 2px #ffff00;
+        }
+
+        /* SHARE BUTTONS */
+        .share-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .share-btn {
+            background: #fff8e7;
+            border: 4px solid #051d40;
+            padding: 10px 15px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 9px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+            transition: all 0.1s;
+        }
+
+        .share-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .pixel-title {
+                font-size: 28px;
+            }
+            .pixel-subtitle {
+                font-size: 12px;
+            }
+            .nav-brand h1 {
+                font-size: 12px;
+            }
+            .nav-links {
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .nav-link {
+                font-size: 8px;
+            }
+            .hero-buttons {
+                flex-direction: column;
+            }
+            .btn-neon, .btn-coral {
+                width: 100%;
+            }
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            .section-title {
+                font-size: 18px;
+            }
+            .template-buttons {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">🦀</span>
+                <h1>SIFT</h1>
+                <span class="tagline">VERIFY YOUR DATA</span>
+            </div>
+            <div class="nav-links">
+                <a href="#check" class="nav-link">🔍 CHECK</a>
+                <a href="#trending" class="nav-link">🔥 TRENDING</a>
+                <a href="#pricing" class="nav-link btn-neon">💰 PRICING</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        
+        <div class="hero-content">
+            <h1 class="pixel-title">KNOW IT'S REAL</h1>
+            <h2 class="pixel-subtitle">Verify Your Data in Seconds</h2>
+            <p class="hero-desc">
+                Instagram followers fake? Crypto prices suspicious? Customer reviews real?<br>
+                Drop your data. Get instant verification. Simple as that.
+            </p>
+            
+            <div class="hero-buttons">
+                <button class="btn-neon" onclick="scrollTo('check')">🌴 VERIFY NOW 🌴</button>
+                <button class="btn-coral" onclick="scrollTo('trending')">🏄 TRENDING CHECKS 🏄</button>
+            </div>
+            
+            <div class="beach-footer">
+                <span>🏖️ 🐚 🦀 🐚 🏖️</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <div class="container" style="margin-top: 40px;">
+        <div class="social-proof">
+            <p><span class="big">10,287</span> Data verifications this week</p>
+            <p>⭐⭐⭐⭐⭐ 99.2% Accuracy Rating</p>
+            <p>🚀 Results in < 10 seconds</p>
+        </div>
+    </div>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">🌊 HOW IT WORKS 🌊</h2>
+            <div class="steps">
+                <div class="step-card">
+                    <div class="step-number">1️⃣</div>
+                    <h4>PICK A USE CASE</h4>
+                    <p>Crypto prices? Instagram followers? Customer reviews? We've got templates for everything.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2️⃣</div>
+                    <h4>PASTE YOUR DATA</h4>
+                    <p>Drop in your data, numbers, links—anything you want verified. Takes 2 seconds.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3️⃣</div>
+                    <h4>GET RESULTS</h4>
+                    <p>See if your data is legit. Get a quality score, spot the fakes, know what's real.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4️⃣</div>
+                    <h4>SHARE & TRUST</h4>
+                    <p>Share results. Make better decisions. Never get fooled again.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Use Cases -->
+    <section id="usecases" style="padding: 80px 0; background: linear-gradient(135deg, #fff8e7 0%, #fffaeb 100%); border-top: 6px solid #ff006e; border-bottom: 6px solid #00ffff;">
+        <div class="container">
+            <h2 class="section-title">🎯 MOST POPULAR RIGHT NOW 🎯</h2>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <span class="use-case-emoji">💰</span>
+                    <h4>Crypto Price Feeds</h4>
+                    <p>Is this BTC price real? Check before you trade.</p>
+                </div>
+                <div class="use-case-card">
+                    <span class="use-case-emoji">🐦</span>
+                    <h4>Twitter Metrics</h4>
+                    <p>Are those followers real or bots?</p>
+                </div>
+                <div class="use-case-card">
+                    <span class="use-case-emoji">⭐</span>
+                    <h4>Customer Reviews</h4>
+                    <p>Spot fake 5-star reviews instantly.</p>
+                </div>
+                <div class="use-case-card">
+                    <span class="use-case-emoji">🎮</span>
+                    <h4>Game Leaderboards</h4>
+                    <p>Catch cheaters on leaderboards.</p>
+                </div>
+                <div class="use-case-card">
+                    <span class="use-case-emoji">📺</span>
+                    <h4>YouTube Stats</h4>
+                    <p>Real views or inflated numbers?</p>
+                </div>
+                <div class="use-case-card">
+                    <span class="use-case-emoji">🏪</span>
+                    <h4>Product Prices</h4>
+                    <p>Did the price actually drop?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Check Your Data -->
+    <section id="check">
+        <div class="container">
+            <h2 class="section-title">🌴 CHECK YOUR DATA 🌴</h2>
+            <div class="form-container">
+                <div style="margin-bottom: 30px;">
+                    <label style="display: block; font-family: 'Press Start 2P', cursive; font-size: 11px; color: #051d40; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">
+                        📋 QUICK TEMPLATES
+                    </label>
+                    <div class="template-buttons">
+                        <button class="template-btn" onclick="setTemplate('crypto')">💰 Crypto</button>
+                        <button class="template-btn" onclick="setTemplate('twitter')">🐦 Twitter</button>
+                        <button class="template-btn" onclick="setTemplate('reviews')">⭐ Reviews</button>
+                        <button class="template-btn" onclick="setTemplate('gaming')">🎮 Gaming</button>
+                        <button class="template-btn" onclick="setTemplate('youtube')">📺 YouTube</button>
+                        <button class="template-btn" onclick="setTemplate('ecommerce')">🏪 E-commerce</button>
+                    </div>
+                </div>
+
+                <form id="checkForm">
+                    <div class="form-group">
+                        <label>📊 PASTE YOUR DATA</label>
+                        <textarea id="rawData" placeholder='{"symbol": "BTC", "price": 42850}&#10;Or paste anything: prices, links, numbers, text...' required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>🎯 WHAT ARE YOU CHECKING?</label>
+                            <select id="rules" required>
+                                <option value="">Select...</option>
+                                <option value="crypto">Cryptocurrency Data</option>
+                                <option value="social">Social Media Metrics</option>
+                                <option value="sentiment">Reviews & Sentiment</option>
+                                <option value="gaming">Gaming Data</option>
+                                <option value="ecommerce">E-commerce Prices</option>
+                                <option value="general">General Data</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>💵 VERIFICATION FEE</label>
+                            <select id="amount">
+                                <option value="free">FREE (Limited)</option>
+                                <option value="1">$1 (Detailed)</option>
+                                <option value="5">$5 (Full Report)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>📝 DESCRIBE WHAT YOU'RE CHECKING</label>
+                        <textarea id="description" placeholder="Optional: Why are you verifying this? What are you worried about?" style="min-height: 80px;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-neon btn-large" style="width: 100%; margin-bottom: 15px;">✨ VERIFY NOW ✨</button>
+                    <p style="font-size: 12px; color: #666; text-align: center;">First 3 checks free • Results in seconds</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Checks -->
+    <section id="trending" class="trending-section">
+        <div class="container">
+            <h2 class="section-title">🔥 TRENDING CHECKS RIGHT NOW 🔥</h2>
+            <div class="trending-grid">
+                <div class="trending-card">
+                    <span class="trending-badge">🔥 POPULAR</span>
+                    <div class="trending-title">Bitcoin Price Feeds</div>
+                    <div class="trending-count">2,847 checks this week</div>
+                    <p style="font-size: 13px; color: #666; margin-bottom: 15px;">Verify BTC/USD prices from exchanges before trading.</p>
+                    <button class="trending-btn">CLAIM JOB</button>
+                </div>
+                <div class="trending-card">
+                    <span class="trending-badge">🔥 HOT</span>
+                    <div class="trending-title">Telegram Member Counts</div>
+                    <div class="trending-count">1,523 checks this week</div>
+                    <p style="font-size: 13px; color: #666; margin-bottom: 15px;">Are those telegram community members real?</p>
+                    <button class="trending-btn">CLAIM JOB</button>
+                </div>
+                <div class="trending-card">
+                    <span class="trending-badge">⭐ TOP RATED</span>
+                    <div class="trending-title">Amazon Review Verification</div>
+                    <div class="trending-count">1,203 checks this week</div>
+                    <p style="font-size: 13px; color: #666; margin-bottom: 15px;">Spot fake 5-star reviews before you buy.</p>
+                    <button class="trending-btn">CLAIM JOB</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">💬 REAL PEOPLE. REAL RESULTS. 💬</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <span class="testimonial-stars">⭐⭐⭐⭐⭐</span>
+                    <p class="testimonial-text">"I caught $500k in fake engagement before launching. Sift saved me from a scam. Game changer."</p>
+                    <p class="testimonial-author">— @crypto_trader (Verified)</p>
+                </div>
+                <div class="testimonial-card">
+                    <span class="testimonial-stars">⭐⭐⭐⭐⭐</span>
+                    <p class="testimonial-text">"We use this for our data pipeline now. Catches 99% of bad data before it hits production."</p>
+                    <p class="testimonial-author">— Sarah M. (Team Lead)</p>
+                </div>
+                <div class="testimonial-card">
+                    <span class="testimonial-stars">⭐⭐⭐⭐⭐</span>
+                    <p class="testimonial-text">"Spotted fake followers instantly. Now I only work with real accounts. Highly recommend."</p>
+                    <p class="testimonial-author">— @content_creator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">💰 SIMPLE PRICING 💰</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free Tier</h3>
+                    <span class="pricing-amount">$0</span>
+                    <ul class="pricing-details">
+                        <li>3 checks/month</li>
+                        <li>Basic quality score</li>
+                        <li>No API access</li>
+                    </ul>
+                    <button class="pricing-btn">GET STARTED</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pay-As-You-Go</h3>
+                    <span class="pricing-amount">$1-5</span>
+                    <ul class="pricing-details">
+                        <li>Unlimited checks</li>
+                        <li>Detailed reports</li>
+                        <li>Share results</li>
+                        <li>No monthly fee</li>
+                    </ul>
+                    <button class="pricing-btn">GET VERIFIED</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>For Teams</h3>
+                    <span class="pricing-amount">Custom</span>
+                    <ul class="pricing-details">
+                        <li>Bulk verification</li>
+                        <li>API access</li>
+                        <li>Priority support</li>
+                        <li>Team dashboard</li>
+                    </ul>
+                    <button class="pricing-btn">CONTACT SALES</button>
+                </div>
+            </div>
+            <div style="text-align: center; padding: 30px; background: rgba(255, 255, 255, 0.1); border: 4px dashed #051d40; margin-top: 40px;">
+                <p style="font-family: 'Press Start 2P', cursive; font-size: 12px; color: #051d40; margin-bottom: 10px;">✅ Money-Back Guarantee</p>
+                <p style="font-size: 14px; color: #051d40; line-height: 1.6;">Not satisfied? Get 100% refund. We're that confident in our verification accuracy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats">
+        <div class="container">
+            <h2 class="section-title">📊 BY THE NUMBERS 📊</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h4>✅ Verifications</h4>
+                    <p>10,287</p>
+                </div>
+                <div class="stat-card">
+                    <h4>⭐ Accuracy</h4>
+                    <p>99.2%</p>
+                </div>
+                <div class="stat-card">
+                    <h4>⚡ Avg Speed</h4>
+                    <p>5s</p>
+                </div>
+                <div class="stat-card">
+                    <h4>🌍 Users</h4>
+                    <p>2,400+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>🦀 SIFT v1.0 🦀</p>
+            <p>Know Your Data Is Real.</p>
+            <p>
+                <a href="https://github.com/pinchie/molt-sift">GitHub</a> |
+                <a href="https://clawhub.com/skills/molt-sift">ClawHub</a> |
+                <a href="https://x.com/Pinchie_Bot">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollTo(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function setTemplate(template) {
+            const dataField = document.getElementById('rawData');
+            const rulesField = document.getElementById('rules');
+            
+            const templates = {
+                crypto: {
+                    data: '{"symbol": "BTC", "price": 42850, "volume": 28000000000, "timestamp": "2026-02-25T12:00:00Z"}',
+                    rule: 'crypto'
+                },
+                twitter: {
+                    data: '{"account": "@elonmusk", "followers": 250000000, "tweets": 35000, "verified": true}',
+                    rule: 'social'
+                },
+                reviews: {
+                    data: '{"product": "Widget X", "rating": 4.8, "reviews": 2500, "verified_purchases": 2300}',
+                    rule: 'sentiment'
+                },
+                gaming: {
+                    data: '{"player": "ProGamer", "rank": 1, "score": 999999, "playtime_hours": 5000}',
+                    rule: 'gaming'
+                },
+                youtube: {
+                    data: '{"channel": "TechReview", "subscribers": 5000000, "views": 250000000, "posts": 400}',
+                    rule: 'social'
+                },
+                ecommerce: {
+                    data: '{"product": "Laptop", "price": 999.99, "discount": 30, "original_price": 1429.99}',
+                    rule: 'ecommerce'
+                }
+            };
+
+            if (templates[template]) {
+                dataField.value = templates[template].data;
+                rulesField.value = templates[template].rule;
+                
+                // Highlight active button
+                document.querySelectorAll('.template-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                event.target.classList.add('active');
+            }
+        }
+
+        // Form submission
+        document.getElementById('checkForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('✅ Verification submitted!\n\nIn a real system, we would:\n• Process your data\n• Run quality checks\n• Return detailed results\n• Show confidence score\n• Let you share results\n\nFor now, thanks for testing!');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "molt-sift-web",
+  "version": "0.1.0",
+  "description": "Web dashboard for Molt Sift data validation bounties",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'No build needed - static site'",
+    "start": "python -m http.server 8080"
+  },
+  "keywords": [
+    "molt-sift",
+    "bounty",
+    "validation",
+    "data-quality",
+    "openclaw",
+    "a2a-economy"
+  ],
+  "author": "Pinchie",
+  "license": "MIT"
+}

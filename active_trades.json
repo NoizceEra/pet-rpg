@@ -1,0 +1,14 @@
+[
+  {
+    "market": "Ethereum Up or Down - February 25, 12:30PM-12:45PM ET",
+    "side": "yes",
+    "amount": 1.5,
+    "trade_id": "52b4eefa-6bd8-41b3-9cee-a3dad37a70a2"
+  },
+  {
+    "market": "Solana Up or Down - February 25, 11AM ET",
+    "side": "no",
+    "amount": 1.5,
+    "trade_id": "08cc394e-f92f-4355-8073-43b60dc17e30"
+  }
+]

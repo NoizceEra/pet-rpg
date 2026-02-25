@@ -1,0 +1,18 @@
+[
+  {
+    "market_id": "a246794e-b81b-4fe0-a836-a56a9c76e3c4",
+    "question": "Total Kills Over/Under 55.5 in Game 2?",
+    "side": "yes",
+    "size": 3.96,
+    "confidence": "MEDIUM - Dota games usually have high kills",
+    "reason": "Esports games tend toward high action/kills"
+  },
+  {
+    "market_id": "21c96f60-c1cd-4c2b-98fd-a3545d0cc62e",
+    "question": "Total Kills Over/Under 57.5 in Game 2?",
+    "side": "yes",
+    "size": 3.96,
+    "confidence": "MEDIUM - Dota games usually have high kills",
+    "reason": "Esports games tend toward high action/kills"
+  }
+]

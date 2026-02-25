@@ -1,0 +1,82 @@
+[2026-02-18 03:40:51] ⚡ Simmer FastLoop Trading Skill
+[2026-02-18 03:40:51] ==================================================
+[2026-02-18 03:40:51] 
+  [DRY RUN] No trades will be executed. Use --live to enable trading.
+[2026-02-18 03:40:51] 
+⚙️  Configuration:
+[2026-02-18 03:40:51]   Asset:            BTC
+[2026-02-18 03:40:51]   Window:           5m
+[2026-02-18 03:40:51]   Entry threshold:  0.01 (min divergence from 50¢)
+[2026-02-18 03:40:51]   Min momentum:     0.0001% (min price move)
+[2026-02-18 03:40:51]   Max position:     $5.00
+[2026-02-18 03:40:51]   Signal source:    coingecko
+[2026-02-18 03:40:51]   Lookback:         5 minutes
+[2026-02-18 03:40:51]   Min time left:    60s
+[2026-02-18 03:40:51]   Volume weighting: ✓
+[2026-02-18 03:40:51] 
+🔍 Discovering BTC fast markets...
+[2026-02-18 03:40:52]   Found 13 active fast markets
+[2026-02-18 03:40:52]   No fast_markets with >60s remaining
+[2026-02-18 03:42:52] ⚡ Simmer FastLoop Trading Skill
+[2026-02-18 03:42:52] ==================================================
+[2026-02-18 03:42:52] 
+⚙️  Configuration:
+[2026-02-18 03:42:52]   Asset:            BTC
+[2026-02-18 03:42:52]   Window:           5m
+[2026-02-18 03:42:52]   Entry threshold:  0.01 (min divergence from 50¢)
+[2026-02-18 03:42:52]   Min momentum:     0.0001% (min price move)
+[2026-02-18 03:42:52]   Max position:     $5.00
+[2026-02-18 03:42:52]   Signal source:    coingecko
+[2026-02-18 03:42:52]   Lookback:         5 minutes
+[2026-02-18 03:42:52]   Min time left:    60s
+[2026-02-18 03:42:52]   Volume weighting: ✓
+[2026-02-18 03:42:52] 
+💰 Portfolio:
+[2026-02-18 03:42:54]   Balance: $40.62
+[2026-02-18 03:42:54] 
+🔍 Discovering BTC fast markets...
+[2026-02-18 03:42:54]   Found 13 active fast markets
+[2026-02-18 03:42:54]   No fast_markets with >60s remaining
+[2026-02-18 03:47:53] ⚡ Simmer FastLoop Trading Skill
+[2026-02-18 03:47:53] ==================================================
+[2026-02-18 03:47:53] 
+⚙️  Configuration:
+[2026-02-18 03:47:53]   Asset:            BTC
+[2026-02-18 03:47:53]   Window:           5m
+[2026-02-18 03:47:53]   Entry threshold:  0.01 (min divergence from 50¢)
+[2026-02-18 03:47:53]   Min momentum:     0.0001% (min price move)
+[2026-02-18 03:47:53]   Max position:     $5.00
+[2026-02-18 03:47:53]   Signal source:    coingecko
+[2026-02-18 03:47:53]   Lookback:         5 minutes
+[2026-02-18 03:47:53]   Min time left:    60s
+[2026-02-18 03:47:53]   Volume weighting: ✓
+[2026-02-18 03:47:53] 
+💰 Portfolio:
+[2026-02-18 03:47:55]   Balance: $40.62
+[2026-02-18 03:47:55] 
+🔍 Discovering BTC fast markets...
+[2026-02-18 03:47:56]   Found 13 active fast markets
+[2026-02-18 03:47:56]   No fast_markets with >60s remaining
+[2026-02-25 18:59:59] Simmer FastLoop Trading Skill
+[2026-02-25 18:59:59] ==================================================
+[2026-02-25 18:59:59] 
+  [DRY RUN] No trades will be executed. Use --live to enable trading.
+[2026-02-25 19:00:04] Simmer FastLoop Trading Skill
+[2026-02-25 19:00:04] ==================================================
+[2026-02-25 19:00:04] 
+  [DRY RUN] No trades will be executed. Use --live to enable trading.
+[2026-02-25 19:00:04] 
+⚙️  Configuration:
+[2026-02-25 19:00:04]   Asset:            BTC
+[2026-02-25 19:00:04]   Window:           5m
+[2026-02-25 19:00:04]   Entry threshold:  0.01 (min divergence from 50¢)
+[2026-02-25 19:00:04]   Min momentum:     0.0001% (min price move)
+[2026-02-25 19:00:04]   Max position:     $5.00
+[2026-02-25 19:00:04]   Signal source:    coingecko
+[2026-02-25 19:00:04]   Lookback:         5 minutes
+[2026-02-25 19:00:04]   Min time left:    60s
+[2026-02-25 19:00:04]   Volume weighting: ✓
+[2026-02-25 19:00:04] 
+🔍 Discovering BTC fast markets...
+[2026-02-25 19:00:05]   Found 13 active fast markets
+[2026-02-25 19:00:05]   No fast_markets with >60s remaining

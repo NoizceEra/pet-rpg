@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Weather Whale",
+    "address": "0x9bC4ee064812e1588b214C709E962b3045D43447",
+    "handle": "0x9bC4...",
+    "min_delta_pct": 5,
+    "notes": "Weather meta specialist"
+  },
+  {
+    "label": "@PBot1",
+    "address": "0x88f46b9e5d86b4fb85be55ab0ec4004264b9d4db",
+    "handle": "PBot1",
+    "min_delta_pct": 5,
+    "notes": "Arb benchmark"
+  },
+  {
+    "label": "0x8dxd (handle)",
+    "handle": "0x8dxd",
+    "address": null,
+    "status": "pending-address",
+    "notes": "Need the underlying Polygon wallet to enable tracking"
+  },
+  {
+    "label": "k9Q2mX4L8A7ZP3R (handle)",
+    "handle": "k9Q2mX4L8A7ZP3R",
+    "address": null,
+    "status": "pending-address",
+    "notes": "Need the underlying Polygon wallet to enable tracking"
+  }
+]

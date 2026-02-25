@@ -1,0 +1,44 @@
+{
+  "session_start": "2026-02-07T01:32:00Z",
+  "session_duration_hours": 4,
+  "starting_balance": 0.3,
+  "current_balance": 0.3,
+  "unrealized_pnl": 0,
+  "realized_pnl": 0,
+  "active_positions": [],
+  "closed_positions": [],
+  "risk_parameters": {
+    "max_position_size_sol": 0.05,
+    "max_active_positions": 3,
+    "stop_loss_percent": 15,
+    "take_profit_percent": 25,
+    "daily_loss_limit_percent": 20
+  },
+  "market_analysis": {
+    "overall_sentiment": "neutral",
+    "volatility": "medium", 
+    "recommended_strategy": "swing_trade",
+    "confidence": 0.7,
+    "last_updated": "2026-02-07T01:32:00Z"
+  },
+  "ai_signals": {
+    "current_action": "SCAN",
+    "confidence": 0.0,
+    "reasoning": "Initializing collaboration session",
+    "timestamp": "2026-02-07T01:32:00Z"
+  },
+  "bot_status": {
+    "active": true,
+    "scanning": true,
+    "last_heartbeat": "2026-02-07T01:32:00Z",
+    "opportunities_queue": []
+  },
+  "performance_metrics": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "win_rate": 0,
+    "avg_trade_duration_minutes": 0,
+    "best_trade_pnl": 0,
+    "worst_trade_pnl": 0
+  }
+}

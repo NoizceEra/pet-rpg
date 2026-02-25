@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-11T09:49:38.458353",
+  "market": "Will AV (Green Alliance) win the most seats in the 2026 Colombian Senate election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.0185
+  }
+}

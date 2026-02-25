@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-10T20:38:56.825226",
+  "market": "Will the Florida Panthers win the Atlantic Division?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.0135
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "market_id": "977ddc36-fd48-4b80-b744-fe907078844e",
+  "side": "yes",
+  "amount": 5.0,
+  "venue": "simmer",
+  "source": "autonomous-fastloop",
+  "reasoning": "FastLoop divergence: Simmer AI 73.6% vs Polymarket 70.5%."
+}

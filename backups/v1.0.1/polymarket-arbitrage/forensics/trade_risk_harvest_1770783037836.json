@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-10T21:10:37.836832",
+  "market": "Will Belinda Robertson win the 2026 New Mexico Governor Republican primary election?",
+  "strategy": "risk_harvest",
+  "size": 5.6,
+  "status": "PAPER_ENTERED",
+  "risk_score": 15,
+  "details": {
+    "outcome": "Yes",
+    "price": 0.017
+  }
+}

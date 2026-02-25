@@ -1,0 +1,232 @@
+{
+  "timestamp": "2026-02-11T07:29:25.811539",
+  "assets": {
+    "BTC-USD": {
+      "news": [
+        {
+          "uuid": "35c905be-1343-3fa1-9992-8c98f0611671",
+          "title": "Where Robinhood stands with bitcoin, options, & prediction markets",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/where-robinhood-stands-bitcoin-options-130029729.html",
+          "providerPublishTime": "2026-02-11T13:00:29.000Z",
+          "type": "VIDEO",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/t97nhGL_wYvUqqWCNs2OIg--~B/aD0yODEwO3c9NTAwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/9d428cd0-06ce-11f1-afbd-d0b877c90c71",
+                "width": 5000,
+                "height": 2810,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/86DxJkIwLp4DFH3fkacjaw--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/os/creatr-uploaded-images/2026-02/9d428cd0-06ce-11f1-afbd-d0b877c90c71",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD",
+            "HOOD"
+          ]
+        },
+        {
+          "uuid": "e9ef9b9d-de0f-3cbd-b423-224d664f3cfc",
+          "title": "Bitcoin Lacks 'Fundamental Narrative' To Draw Investors, Says Jordi Visser \u00e2\u20ac\u201d Macro Guru Argues Most Will Favor Biggest 'Liquid Companies' Over BTC",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/bitcoin-lacks-fundamental-narrative-draw-104610347.html",
+          "providerPublishTime": "2026-02-11T10:46:10.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/CJxwtDX0eRmTsQn1jXpJ0A--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/8d185f3a41e6d649e1b171096a3a42c4",
+                "width": 1024,
+                "height": 683,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/cLFDg77hypnrL70XOsVv_Q--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/8d185f3a41e6d649e1b171096a3a42c4",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD",
+            "TSLA",
+            "GOOG",
+            "META",
+            "AMZN"
+          ]
+        },
+        {
+          "uuid": "925c39d6-afce-3fbf-b126-2375997713d8",
+          "title": "Jack Dorsey's Block Weighs 10% Workforce Cuts Amid Broader Restructuring: Report",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/jack-dorseys-block-weighs-10-130111236.html",
+          "providerPublishTime": "2026-02-11T13:01:11.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/on3cN1FXzk95zydE221neA--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/8f73ae10715d9d7e01e79d2843734826",
+                "width": 1000,
+                "height": 563,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/qWwoLhSk8hU768AvsG9Pag--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/8f73ae10715d9d7e01e79d2843734826",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "XYZ",
+            "BTC-USD"
+          ]
+        }
+      ]
+    },
+    "ETH-USD": {
+      "news": [
+        {
+          "uuid": "f22c0ff2-5f07-3623-ba67-d9d5c174610d",
+          "title": "Top Cryptocurrencies Fall; Bitcoin Falls Below $69,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-fall-bitcoin-falls-205743241.html",
+          "providerPublishTime": "2026-02-10T20:57:43.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        },
+        {
+          "uuid": "2a3c8e73-a03e-4b8f-aa6c-ddbe6cb1707c",
+          "title": "Bitcoin falls to $69,000 as crypto market shows 'early stages of bottoming'",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/news/bitcoin-falls-to-69000-as-crypto-market-shows-early-stages-of-bottoming-163932366.html",
+          "providerPublishTime": "2026-02-10T16:39:32.000Z",
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/xJFCdoiNNLgBLP3JOcj83w--~B/aD0zMDI0O3c9NDAzMjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2024-07/c86ebd80-42b1-11ef-bf7f-f4e7547189bb",
+                "width": 4032,
+                "height": 3024,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/uu/api/res/1.2/CjBhESW2Qxd4CCXd4eF9.w--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/os/creatr-uploaded-images/2024-07/c86ebd80-42b1-11ef-bf7f-f4e7547189bb",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "BTC-USD",
+            "ETH-USD"
+          ]
+        },
+        {
+          "uuid": "6ab65a5c-937a-3739-8a38-796f3e829c15",
+          "title": "Top Cryptocurrencies Mixed; Bitcoin Lower Below $71,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-mixed-bitcoin-lower-210017924.html",
+          "providerPublishTime": "2026-02-09T21:00:17.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^IXIC",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        }
+      ]
+    },
+    "SOL-USD": {
+      "news": [
+        {
+          "uuid": "f22c0ff2-5f07-3623-ba67-d9d5c174610d",
+          "title": "Top Cryptocurrencies Fall; Bitcoin Falls Below $69,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-fall-bitcoin-falls-205743241.html",
+          "providerPublishTime": "2026-02-10T20:57:43.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        },
+        {
+          "uuid": "6ab65a5c-937a-3739-8a38-796f3e829c15",
+          "title": "Top Cryptocurrencies Mixed; Bitcoin Lower Below $71,000 Level",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-mixed-bitcoin-lower-210017924.html",
+          "providerPublishTime": "2026-02-09T21:00:17.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^IXIC",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        },
+        {
+          "uuid": "f952b0bd-ef9a-3b31-ac5e-a9bf9164a2e2",
+          "title": "Top Cryptocurrencies Rise; Bitcoin Tops $70,000",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/news/top-cryptocurrencies-rise-bitcoin-tops-210303421.html",
+          "providerPublishTime": "2026-02-06T21:03:03.000Z",
+          "type": "STORY",
+          "relatedTickers": [
+            "BTC-USD",
+            "ADA-USD",
+            "BNB-USD",
+            "SOL-USD",
+            "^NDX",
+            "^GSPC",
+            "^DJI",
+            "ETH-USD",
+            "DOGE-USD",
+            "XRP-USD"
+          ]
+        }
+      ]
+    }
+  }
+}

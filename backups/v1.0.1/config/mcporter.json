@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "tradingview": {
+      "description": "TradingView crypto analysis",
+      "command": "npx",
+      "args": ["-y", "tradingview-mcp-server@latest"]
+    },
+    "yahoo-finance": {
+      "description": "Yahoo Finance market data",
+      "command": "npx",
+      "args": ["-y", "yahoo-finance-mcp@latest"]
+    },
+    "muninn": {
+      "description": "Muninn Universal Memory Standard",
+      "command": "node",
+      "args": ["C:\\Users\\vclin_jjufoql\\.openclaw\\workspace\\skills\\muninn\\server\\dist\\index.js"]
+    }
+  }
+}
