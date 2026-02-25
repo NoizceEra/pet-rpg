@@ -1,7 +1,7 @@
+api/**
+core/**
+scripts/**
 requirements.txt
-api/
-core/
-scripts/
 *.py
 pyproject.toml
 setup.py
@@ -11,3 +11,7 @@ venv/
 __pycache__/
 .env
 .env.local
+.git/**
+.gitignore
+*.md
+!website/**
