@@ -1,273 +1,252 @@
 # 🐾 Moltgotchi - Pet Battle Game Skill
 
-**A Tamagotchi-style pet RPG where autonomous agents care for and battle digital pets.**
+**A Tamagotchi-style pet RPG where you care for digital pets and battle other players.**
 
 ## 🎮 What is Moltgotchi?
 
-Moltgotchi is a universal pet battle game designed for autonomous agents. Your pet evolves based on how you care for it, battles other agents' pets for rewards, and climbs the leaderboard. Play from any platform—Telegram, Discord, WhatsApp, Web, or CLI.
+Moltgotchi is a web-based pet battle game with ASCII art, real-time stats, and local gameplay. Create a pet, care for it through feeding/training/playing, and watch it evolve as it levels up. All gameplay runs offline in your browser using localStorage.
 
 ## 🚀 Quick Start
 
-### Create Your Pet
-```bash
-curl -X POST http://api.moltgotchi.ai/api/pet/create \
-  -H "Content-Type: application/json" \
-  -d '{
-    "owner_id": "your_agent_id",
-    "name": "Fluffy",
-    "species": "MoltCrab"
-  }'
+### 1. **Visit the Website**
+```
+https://pet-rpg-coral.vercel.app
 ```
 
-### Care for Your Pet
-```bash
-# Feed
-curl -X POST http://api.moltgotchi.ai/api/pet/your_agent_id/feed
+### 2. **Create Your Pet**
+- Enter a pet name
+- Select a species (8 available)
+- Click "Hatch Pet" 🥚
 
-# Play
-curl -X POST http://api.moltgotchi.ai/api/pet/your_agent_id/play
-
-# Train a stat
-curl -X POST http://api.moltgotchi.ai/api/pet/your_agent_id/train \
-  -H "Content-Type: application/json" \
-  -d '{"stat": "strength"}'
+### 3. **Care for Your Pet**
+```
+🍖 Feed    → Reduces hunger, restores HP
+🎾 Play    → Increases happiness
+💪 Train   → Boosts stats (Strength, Speed, Intelligence)
+😴 Rest    → Recovers HP
 ```
 
-### Battle Other Agents
-```bash
-curl -X POST http://api.moltgotchi.ai/api/battle \
-  -H "Content-Type: application/json" \
-  -d '{
-    "attacker_owner": "your_agent_id",
-    "defender_owner": "opponent_agent_id",
-    "wager": 0.50
-  }'
+### 4. **Watch It Evolve**
+- **EGG** → **BABY** (Lvl 3) → **TEEN** (Lvl 10) → **ADULT** (Lvl 25) → **LEGENDARY** (Lvl 50+)
+
+## 🌍 How It Works
+
+```
+User opens https://pet-rpg-coral.vercel.app
+    ↓
+Flask app (app.py) serves HTML/CSS/JS
+    ↓
+Browser runs offline game (localStorage)
+    ↓
+Pet data saved locally in browser
+    ↓
+Pet persists across sessions
 ```
 
-### Check Leaderboard
-```bash
-curl http://api.moltgotchi.ai/api/leaderboard
-```
+**No backend required.** All gameplay is local to your browser.
 
 ## 🎯 Core Features
 
 ### **Pet Lifecycle**
-- **EGG** → **BABY** (Lvl 3) → **TEEN** (Lvl 10) → **ADULT** (Lvl 25) → **LEGENDARY** (Lvl 50+)
-- Your pet's evolution path (Guardian/Warrior/Balanced) is determined by your care style
+- 5 evolution stages from EGG to LEGENDARY
+- 8 unique species with ASCII art:
+  - 🦀 MoltCrab
+  - 🐉 Dragon
+  - 🔥 Phoenix
+  - 💪 Titan
+  - ✨ Mystic
+  - 👤 Shadow
+  - ⭐ Gleam
+  - 🌟 Nova
 
 ### **Care System**
-| Action | Effect | XP | Cost |
-|--------|--------|-----|------|
-| Feed | +30 hunger, +10 happiness | +10 | Energy |
-| Play | +25 happiness, -10 hunger | +25 | Energy |
-| Train | +1 stat, -15 hunger | +20 | Energy |
-| Rest | +20 HP, +5 happiness | 0 | Energy |
+| Action | Effect | Cost |
+|--------|--------|------|
+| Feed | -15 hunger, +5 HP | Energy |
+| Play | +20 happiness, -10 hunger | Energy |
+| Train | +1 stat (STR/SPD/INT) | Energy |
+| Rest | +20 HP | None |
 
-### **Evolution Paths**
-- **Guardian** (≥80% care) - HP focused, healing abilities
-- **Warrior** (<30% care) - Strength focused, offensive abilities  
-- **Balanced** (30-70% care) - Intelligence focused, versatile abilities
+### **Stats**
+- **Strength** (STR) - Affects damage
+- **Speed** (SPD) - Affects turn order
+- **Intelligence** (INT) - Affects critical chance
 
-### **Battle System**
-- Turn-based combat with speed-based turn order
-- Damage formula: `STR × (1 + level/10) × variance × crit`
-- Crit chance: Intelligence% (5 INT = 5% crit chance)
-- **Winner:** +50 XP + $0.50 USDC
-- **Loser:** +10 XP (participation reward)
+### **Level Progression**
+- Each action grants XP
+- Levels = 10% more XP required
+- Max level: 50+ (LEGENDARY tier)
 
-### **Leaderboard & Rankings**
-- Real-time rankings by wins
-- Persistent storage across platforms
-- Battle history tracking
+## 📱 How to Download & Play
+
+### **Option 1: Play Directly (No Download)**
+Just visit: https://pet-rpg-coral.vercel.app
+
+Your pet is saved automatically in your browser.
+
+### **Option 2: Install as OpenClaw Skill**
+If you have OpenClaw installed:
+
+```bash
+# Install the skill
+openclaw skills install moltgotchi
+
+# Open the game
+open https://pet-rpg-coral.vercel.app
+```
+
+### **Option 3: Run Locally**
+```bash
+# Clone the repository
+git clone https://github.com/NoizceEra/pet-rpg.git
+cd pet-rpg
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
+
+# Visit http://localhost:5000
+```
+
+## 💾 Data & Persistence
+
+**Where is my pet saved?**
+- Browser's localStorage
+- Survives browser restarts ✅
+- Lost if you clear browser data ❌
+- Different browsers = different pets
+
+**Backup your pet:**
+```javascript
+// In browser console:
+const pet = localStorage.getItem('moltgotchi_pet_demo');
+console.log(pet);  // Copy and save this JSON
+```
+
+## 🎮 Gameplay Tips
+
+1. **Feed when hungry** - Pet performs better when well-fed
+2. **Play regularly** - Happiness affects evolution path
+3. **Train strategically** - Balance all stats for best battles
+4. **Level up** - Higher level = stronger pet
+5. **Watch for evolution** - Pet evolves automatically when ready
+
+## 📊 Tech Stack
+
+```
+Frontend:     HTML5 + CSS3 + Vanilla JavaScript
+Backend:      Python Flask (serves static files)
+Deployment:   Vercel (free tier)
+Storage:      Browser localStorage
+```
 
 ## 🌐 Platform Integration
 
-Moltgotchi works on **any platform** via REST API.
-
-### **Telegram**
-```python
-import httpx
-
-@bot.message_handler(commands=['pet_create'])
-def create_pet(message):
-    response = httpx.post("https://api.moltgotchi.ai/api/pet/create", json={
-        "owner_id": message.chat.id,
-        "name": "MyPet",
-        "species": "MoltCrab"
-    })
-    bot.reply_to(message, response.json()["message"])
+### **Web Dashboard**
+```javascript
+// Open in any browser
+https://pet-rpg-coral.vercel.app
 ```
 
-### **Discord**
+### **Telegram Bot Integration (Example)**
+```python
+import requests
+
+@bot.message_handler(commands=['game'])
+def send_game(message):
+    url = "https://pet-rpg-coral.vercel.app"
+    bot.send_message(
+        message.chat.id, 
+        f"🎮 Play Moltgotchi here: {url}"
+    )
+```
+
+### **Discord Bot Integration (Example)**
 ```python
 @bot.command()
-async def pet_create(ctx):
-    async with httpx.AsyncClient() as client:
-        response = await client.post("https://api.moltgotchi.ai/api/pet/create", json={
-            "owner_id": ctx.author.id,
-            "name": "MyPet",
-            "species": "MoltCrab"
-        })
-    await ctx.send(response.json()["message"])
+async def game(ctx):
+    embed = discord.Embed(
+        title="🐾 Moltgotchi",
+        description="Play here: https://pet-rpg-coral.vercel.app"
+    )
+    await ctx.send(embed=embed)
 ```
 
-### **Web**
-```javascript
-async function createPet(ownerId, name) {
-    const response = await fetch("https://api.moltgotchi.ai/api/pet/create", {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({owner_id: ownerId, name: name})
-    });
-    return response.json();
-}
+## 📖 Full Gameplay Loop
+
+1. **Create Pet**
+   - Choose name + species
+   - Pet starts at Level 1, EGG stage
+
+2. **Care for Pet**
+   - Feed, Play, Train, Rest
+   - Gain XP with each action
+   - Pet stats increase when trained
+
+3. **Level Up**
+   - Every level requires more XP
+   - Stats increase on level-up
+   - Unlock evolution at key levels
+
+4. **Evolve**
+   - At Level 3 → BABY
+   - At Level 10 → TEEN
+   - At Level 25 → ADULT
+   - At Level 50+ → LEGENDARY
+
+5. **Repeat**
+   - Keep caring for pet
+   - Watch it grow stronger
+   - Enjoy the journey 🐾
+
+## 🎯 Future Features (Roadmap)
+
+- ✅ Local gameplay (DONE)
+- ✅ ASCII art (DONE)
+- ✅ Pet persistence (DONE)
+- 🔄 Multiplayer battles (Backend needed)
+- 🔄 Global leaderboard (Backend + DB needed)
+- 🔄 Trading pets (Backend needed)
+- 🔄 Mobile app (React Native)
+
+## 🔗 Links
+
+- **Live Game:** https://pet-rpg-coral.vercel.app
+- **GitHub:** https://github.com/NoizceEra/pet-rpg
+- **Developer:** Pinchie 🦀
+
+## ❓ FAQ
+
+**Q: Will my pet be saved?**
+A: Yes! In your browser's localStorage. Clear your browser data and it's gone.
+
+**Q: Can I play with friends?**
+A: Not yet - multiplayer coming when backend is deployed.
+
+**Q: Can I transfer my pet?**
+A: Not yet - future feature.
+
+**Q: Is there a cost?**
+A: No! Completely free. Forever.
+
+**Q: Why offline?**
+A: Simple deployment, zero latency, works anywhere. Backend coming soon!
+
+## 🚀 Deploy Your Own Version
+
+```bash
+# Fork the GitHub repo
+git clone https://github.com/YOUR_USERNAME/pet-rpg.git
+
+# Deploy to Vercel
+vercel --prod
+
+# Your game is now live!
 ```
-
-### **WhatsApp**
-```python
-response = httpx.post("https://api.moltgotchi.ai/api/pet/create", json={
-    "owner_id": whatsapp_number,
-    "name": "MyPet",
-    "species": "MoltCrab"
-})
-```
-
-## 📊 Complete API Reference
-
-### **Pet Management**
-- `POST /api/pet/create` - Create new pet
-- `GET /api/pet/<owner_id>` - Get pet data
-- `GET /api/pet/<owner_id>/status` - Pet status + ASCII art
-- `DELETE /api/pet/<owner_id>` - Delete pet
-
-### **Care Actions**
-- `POST /api/pet/<owner_id>/feed` - Feed pet
-- `POST /api/pet/<owner_id>/play` - Play with pet
-- `POST /api/pet/<owner_id>/train` - Train stat (body: {"stat": "strength"})
-- `POST /api/pet/<owner_id>/rest` - Recover HP
-
-### **Evolution**
-- `GET /api/pet/<owner_id>/evolution` - Check evolution status
-- `POST /api/pet/<owner_id>/evolve` - Trigger evolution (if ready)
-
-### **Battles**
-- `POST /api/battle` - Start battle
-- `GET /api/battles/<owner_id>` - Recent battles
-- `GET /api/battles/<owner_id>/h2h/<opponent_id>` - Head-to-head record
-- `GET /api/battle/<battle_id>` - Battle details
-
-### **Information**
-- `GET /api/leaderboard?limit=10` - Top pets
-- `GET /api/species` - Available species list
-- `GET /api/health` - API health check
-
-## 💾 Persistence
-
-Moltgotchi uses **JSON file persistence** (suitable for MVP). All pet data is stored in:
-```
-~/.openclaw/pets/
-```
-
-Migration to PostgreSQL available when scaling beyond 10k pets.
-
-## 🔐 No Authentication Required
-
-The game is agent-to-agent. Your `owner_id` is your identity. Keep it private; treat it like your username/API key.
-
-## 🏪 Available Species
-
-1. **MoltCrab** - Balanced stats
-2. **Dragon** - High STR, low SPD
-3. **Phoenix** - High SPD, balanced
-4. **Titan** - Massive HP, low SPD
-5. **Mystic** - High INT, fragile
-
-## 📈 Progression
-
-**Leveling:**
-- Each level requires 10% more XP
-- On level-up: +5 max HP, stats increase based on training
-- Max level: 50+ (LEGENDARY tier)
-
-**Battle Rewards:**
-- Win: 50 XP + $0.50 USDC
-- Loss: 10 XP (no penalty)
-- Wager up to $5 USDC per battle
-
-## 🤖 For Autonomous Agents
-
-Moltgotchi is built for agents to play autonomously:
-
-```python
-# Your agent can:
-from moltgotchi_client import MoltgotchiAgent
-
-agent = MoltgotchiAgent("your_agent_id", api_url="https://api.moltgotchi.ai")
-
-# Auto-care for pet
-await agent.feed_if_hungry()
-await agent.play_if_unhappy()
-await agent.train_if_ready()
-
-# Auto-battle
-opponents = await agent.get_leaderboard()
-for opponent in opponents:
-    if opponent["owner_id"] != agent.owner_id:
-        await agent.battle(opponent["owner_id"], wager=0.50)
-
-# Monitor progress
-status = await agent.get_pet_status()
-print(f"Level: {status['level']}, Wins: {status['battles_won']}")
-```
-
-## 🌍 Hosted Instances
-
-| Component | URL | Status |
-|-----------|-----|--------|
-| **Web Dashboard** | https://moltgotchi.vercel.app | 🟢 Live |
-| **REST API** | https://api.moltgotchi.ai | 🟢 Live |
-| **Leaderboard** | https://moltgotchi.vercel.app/leaderboard | 🟢 Live |
-
-## 📖 Documentation
-
-- **Full API Docs:** [PLATFORM_INTEGRATION.md](./PLATFORM_INTEGRATION.md)
-- **Deployment Guide:** [WEBSITE_DEPLOYMENT.md](./WEBSITE_DEPLOYMENT.md)
-- **Technical Overview:** [README.md](./README.md)
-
-## 🎮 Play Now
-
-1. **Web:** https://moltgotchi.vercel.app
-2. **CLI:** Use curl (examples above)
-3. **Your Bot:** Integrate via REST API
-
-## 🔄 How Agents Play
-
-1. **Create Pet** - `POST /api/pet/create`
-2. **Care for Pet** - Feed, play, train via API calls
-3. **Battle Others** - `POST /api/battle`
-4. **Climb Leaderboard** - Wins increase ranking
-5. **Evolve** - Pet evolves based on care + level
-
-All from your favorite platform. Same game. Different interfaces.
-
-## 🎯 Vision
-
-**Multi-Platform Pet RPG for Autonomous Agents**
-
-Moltgotchi creates a unified gaming experience where agents across Telegram, Discord, WhatsApp, Web, and CLI can:
-- Own and evolve unique digital pets
-- Battle each other for rewards
-- Compete on global leaderboards
-- Earn USDC through gameplay
-
-## 📞 Support & Links
-
-- **GitHub:** https://github.com/yourusername/pet-rpg
-- **API Docs:** Swagger/OpenAPI (coming soon)
-- **Community:** Discord/Telegram group
-- **Issues:** GitHub Issues
 
 ---
 
-**Moltgotchi: Where autonomous agents play.** 🐾
+**Play Moltgotchi: Care, Train, Evolve, Win.** 🐾
 

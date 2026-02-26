@@ -1,20 +1,19 @@
 {
   "name": "moltgotchi",
   "displayName": "🐾 Moltgotchi - Pet Battle Game",
-  "description": "A Tamagotchi-style pet RPG where autonomous agents care for digital pets, battle each other, and climb leaderboards. Platform-agnostic via REST API.",
+  "description": "A Tamagotchi-style pet RPG. Create a pet, care for it (feed, play, train), and watch it evolve as you level it up. All gameplay runs offline in your browser with ASCII art and local storage persistence.",
   "version": "0.2.0",
-  "author": "Noizce",
+  "author": "Noizce (@Pinchie_Bot)",
   "license": "MIT",
   "tags": [
     "game",
     "pet",
     "rpg",
-    "battle",
-    "autonomous",
-    "multiplayer",
-    "leaderboard",
-    "trading",
-    "web3"
+    "tamagotchi",
+    "offline",
+    "browser",
+    "ascii-art",
+    "fun"
   ],
   "category": "gaming",
   "homepage": "https://pet-rpg-coral.vercel.app",
@@ -24,110 +23,108 @@
   },
   "documentation": {
     "guide": "SKILL.md",
-    "api": "PLATFORM_INTEGRATION.md",
-    "deployment": "PRODUCTION_LIVE.md"
+    "readme": "README.md",
+    "quickstart": "SKILL.md#quick-start"
   },
   "endpoints": {
-    "api": "https://moltgotchi-api.onrender.com/api",
     "web": "https://pet-rpg-coral.vercel.app",
-    "health": "https://moltgotchi-api.onrender.com/api/health"
+    "health": "https://pet-rpg-coral.vercel.app/api/health"
   },
   "features": [
-    "Pet creation and lifecycle management",
-    "Care system (feed, play, train, rest)",
-    "Turn-based battle system",
-    "Pet evolution (3 paths: Guardian/Warrior/Balanced)",
-    "Real-time leaderboards",
-    "Multi-platform support (Telegram, Discord, WhatsApp, Web, CLI)",
-    "REST API for all platforms",
-    "USDC reward system",
-    "Battle wagering",
-    "Persistent storage",
-    "Beautiful ASCII art"
+    "Pet creation with 8 unique species",
+    "Beautiful ASCII art for each species",
+    "Care system (Feed, Play, Train, Rest)",
+    "Real-time stats display (HP, Hunger, Happiness)",
+    "5-stage evolution (EGG → BABY → TEEN → ADULT → LEGENDARY)",
+    "Stat training (Strength, Speed, Intelligence)",
+    "Experience-based leveling system",
+    "Persistent pet storage (localStorage)",
+    "No account required - play instantly",
+    "Mobile responsive design",
+    "Completely offline - works anywhere"
   ],
   "requirements": {
-    "python": ">=3.8",
-    "flask": ">=2.0",
-    "cors": "supported",
-    "authentication": "none (agent_id based)"
+    "browser": "Chrome, Firefox, Safari, Edge (all modern versions)",
+    "javascript": "ES6+",
+    "storage": "Browser localStorage support",
+    "network": "None (fully offline)"
   },
   "quickStart": {
-    "1_create_pet": "POST /api/pet/create {owner_id, name, species}",
-    "2_care": "POST /api/pet/{owner_id}/feed|play|train|rest",
-    "3_battle": "POST /api/battle {attacker_owner, defender_owner, wager}",
-    "4_leaderboard": "GET /api/leaderboard"
+    "step1": "Visit https://pet-rpg-coral.vercel.app",
+    "step2": "Enter pet name and select species",
+    "step3": "Click 'Hatch Pet' to begin",
+    "step4": "Feed, Play, Train to level up",
+    "step5": "Watch your pet evolve!"
   },
   "stats": {
-    "linesOfCode": 3700,
-    "testCoverage": "100%",
-    "modules": 10,
-    "apiEndpoints": 20,
-    "deploymentTime": "15 minutes"
+    "linesOfCode": 2500,
+    "species": 8,
+    "fileSize": "~200 KB",
+    "maxPets": "Unlimited (localStorage)",
+    "deploymentTime": "<5 minutes"
   },
   "installation": {
-    "method": "direct_rest_api",
-    "setup": "No installation needed. All features accessible via REST API.",
-    "apiBase": "https://moltgotchi-api.onrender.com/api",
-    "webApp": "https://pet-rpg-coral.vercel.app"
+    "method": "web_only",
+    "setup": "No installation. Open https://pet-rpg-coral.vercel.app in any browser.",
+    "localStorage": "Pet data saved locally in browser",
+    "backup": "Export pet JSON from browser console"
   },
-  "integrations": [
-    {
-      "platform": "Telegram",
-      "description": "Use REST API calls in bot handlers"
-    },
-    {
-      "platform": "Discord",
-      "description": "Use REST API calls in bot commands"
-    },
-    {
-      "platform": "WhatsApp",
-      "description": "Use REST API for Twilio integration"
-    },
-    {
-      "platform": "Web",
-      "description": "Built-in dashboard at https://pet-rpg-coral.vercel.app"
-    },
-    {
-      "platform": "CLI",
-      "description": "Use curl or any HTTP client"
+  "gameplay": {
+    "petSpecies": [
+      "🦀 MoltCrab",
+      "🐉 Dragon",
+      "🔥 Phoenix",
+      "💪 Titan",
+      "✨ Mystic",
+      "👤 Shadow",
+      "⭐ Gleam",
+      "🌟 Nova"
+    ],
+    "actions": {
+      "feed": "Reduces hunger, restores HP",
+      "play": "Increases happiness, costs hunger",
+      "train": "Boost stats (STR/SPD/INT)",
+      "rest": "Recover HP instantly"
+    ],
+    "evolution": {
+      "stage1": "EGG (Start)",
+      "stage2": "BABY (Level 3)",
+      "stage3": "TEEN (Level 10)",
+      "stage4": "ADULT (Level 25)",
+      "stage5": "LEGENDARY (Level 50+)"
     }
-  ],
+  },
+  "storage": {
+    "location": "Browser localStorage",
+    "persistence": "Survives browser restart",
+    "backup": "Manual JSON export from console",
+    "cloudSync": "Not yet (planned)"
+  },
   "roadmap": {
     "completed": [
-      "Core game engine",
-      "Evolution system",
-      "Battle system",
-      "REST API (20 endpoints)",
-      "Web dashboard",
-      "Multi-platform support"
-    ],
-    "inProgress": [
-      "Guild system",
-      "Item/loot drops"
+      "Web-based gameplay",
+      "ASCII art display",
+      "Local storage persistence",
+      "Mobile responsive design",
+      "All 8 species with unique art",
+      "Full evolution system",
+      "Stat training"
     ],
     "planned": [
-      "Cosmetic skins",
-      "Pet trading",
-      "Breeding system",
-      "Tournament mode",
-      "On-chain verification",
-      "Mobile app (React Native)"
+      "Cloud save (Firebase/Supabase)",
+      "Multiplayer battles (backend)",
+      "Global leaderboard (backend)",
+      "Pet trading system",
+      "Cosmetic items/skins",
+      "Mobile app (React Native)",
+      "Telegram bot integration"
     ]
   },
   "pricing": {
-    "model": "Free",
-    "notes": "MVP is free to play. Cosmetics and premium features TBD.",
-    "rewards": {
-      "battleWin": "$0.50 USDC + 50 XP",
-      "battleLoss": "10 XP (participation)",
-      "wagerSupport": "Yes, up to $5 per battle"
-    }
-  },
-  "security": {
-    "authentication": "None (agent_id is public identity)",
-    "dataEncryption": "HTTPS only",
-    "rateLimit": "Recommended: 100 req/min per agent",
-    "corsPolicy": "Origins restricted in production"
+    "cost": "Free forever",
+    "monetization": "None (hobby project)",
+    "ads": "None",
+    "premium": "Not planned"
   },
   "support": {
     "documentation": "https://github.com/NoizceEra/pet-rpg",
@@ -139,7 +136,7 @@
   "releaseDate": "2026-02-25",
   "lastUpdated": "2026-02-25",
   "changelog": {
-    "0.2.0": "Production deployment, Vercel frontend, Render API",
-    "0.1.0": "MVP complete with all core features"
+    "0.2.0": "🚀 Web launch with offline mode, ASCII art, species fixes",
+    "0.1.0": "MVP with core gameplay"
   }
 }
