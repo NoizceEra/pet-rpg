@@ -372,38 +372,13 @@ async function handleBattle(opponentId, wager = 0) {
     return;
   }
   
-  if (!api.isAvailable) {
-    showNotification('💡 Battles require API. Deploy Render to enable!', 'warning');
-    return;
-  }
-  
   if (!opponentId) {
-    showNotification('Select an opponent!', 'warning');
+    showNotification('Enter opponent user ID!', 'warning');
     return;
   }
   
-  setLoading(true);
-  try {
-    const result = await api.startBattle(gameState.userId, opponentId, wager);
-    
-    const winner = result.winner === 'attacker' 
-      ? result.attacker_name 
-      : result.defender_name;
-    
-    showNotification(`${winner} wins! ⚔️`, 'success');
-    
-    // Refresh pet and battles
-    const pet = await api.getPet(gameState.userId);
-    gameState.setPet(pet);
-    renderStatus(pet);
-    await refreshBattles();
-    await refreshLeaderboard();
-  } catch (error) {
-    console.error('[Battle] Failed:', error);
-    showNotification(`❌ Error: ${error.message}`, 'error');
-  } finally {
-    setLoading(false);
-  }
+  showNotification('💡 Battles available when API is deployed', 'info');
+  console.log('[Battle] Demo mode - battles disabled locally');
 }
 
 // ─────────────────────────────────────────────────────────────────────
@@ -411,35 +386,13 @@ async function handleBattle(opponentId, wager = 0) {
 // ─────────────────────────────────────────────────────────────────────
 
 async function refreshLeaderboard() {
-  try {
-    if (!api.isAvailable) {
-      console.log('[UI] Leaderboard unavailable in demo mode');
-      renderLeaderboard([]);
-      return;
-    }
-    
-    const pets = await api.getLeaderboard(UI_CONFIG.LEADERBOARD_LIMIT);
-    renderLeaderboard(pets);
-  } catch (error) {
-    console.error('[UI] Failed to load leaderboard:', error);
-    renderLeaderboard([]);
-  }
+  console.log('[UI] Leaderboard unavailable in offline mode');
+  renderLeaderboard([]);
 }
 
 async function refreshBattles() {
-  try {
-    if (!api.isAvailable) {
-      console.log('[UI] Battles unavailable in demo mode');
-      renderBattles([]);
-      return;
-    }
-    
-    const battles = await api.getBattles(gameState.userId, UI_CONFIG.BATTLES_PER_PAGE);
-    renderBattles(battles);
-  } catch (error) {
-    console.error('[UI] Failed to load battles:', error);
-    renderBattles([]);
-  }
+  console.log('[UI] Battles unavailable in offline mode');
+  renderBattles([]);
 }
 
 async function handleEvolution() {
@@ -448,28 +401,16 @@ async function handleEvolution() {
     return;
   }
   
-  if (!api.isAvailable) {
-    showNotification('💡 Evolution requires API. Deploy Render to enable!', 'warning');
+  const pet = gameState.getPet();
+  
+  // Check if pet can evolve (level 8+)
+  if (pet.level < 8) {
+    showNotification(`Level up more! Current: ${pet.level}/8`, 'warning');
     return;
   }
   
-  setLoading(true);
-  try {
-    const result = await api.checkEvolution(gameState.userId);
-    if (result.evolved) {
-      showNotification('Evolution! ✨', 'success');
-      const pet = await api.getPet(gameState.userId);
-      gameState.setPet(pet);
-      renderStatus(pet);
-    } else {
-      showNotification('Not ready to evolve yet. Keep training!', 'info');
-    }
-  } catch (error) {
-    console.error('[Pet] Evolution failed:', error);
-    showNotification(`❌ Error: ${error.message}`, 'error');
-  } finally {
-    setLoading(false);
-  }
+  // Simple demo evolution (in offline mode)
+  showNotification('✨ Evolution available when API is deployed!', 'info');
 }
 
 console.log('[UI] Initialized with DOM cache');

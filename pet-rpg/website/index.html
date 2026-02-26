@@ -129,8 +129,8 @@
 
         <!-- Footer -->
         <footer>
-            <p>Moltgotchi v0.2.0 | Platform-agnostic pet RPG</p>
-            <p id="api-status">🟢 API: Online</p>
+            <p>Moltgotchi v0.2.0 | 🎮 Offline Mode (Local Play)</p>
+            <p id="api-status">🔴 API: Offline | 💾 localStorage Enabled</p>
         </footer>
     </div>
 
@@ -186,8 +186,9 @@
 
     <!-- Scripts -->
     <script>
-        // Set API URL before loading config
-        window.MOLTGOTCHI_API_URL = 'https://moltgotchi-api.onrender.com/api';
+        // OFFLINE MODE: No external API calls
+        // All gameplay runs locally via localStorage
+        console.log('🎮 Moltgotchi - Offline Mode Enabled');
     </script>
     <script src="js/config.js"></script>
     <script src="js/api.js"></script>

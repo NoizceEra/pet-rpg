@@ -9,67 +9,35 @@
 
 async function initializeApp() {
   console.log('[App] Initializing MoltGotchi...');
+  console.log('[App] OFFLINE MODE ENABLED - All gameplay is local');
   
   // Populate species dropdown
   populateSpeciesDropdown();
   
-  // Check if API is configured
-  if (!api.isAvailable) {
-    console.log('[App] Running in DEMO mode - API not configured');
-    gameState.setOnline(false);
-    showNotification('🎮 DEMO MODE: Create/edit pets locally. Deploy Render API to sync!', 'info');
-    
-    // Try to load demo pet
-    const demoPetJson = localStorage.getItem('moltgotchi_pet_demo');
-    if (demoPetJson) {
-      try {
-        const pet = JSON.parse(demoPetJson);
-        gameState.setPet(pet);
-        renderStatus(pet);
-        showPetDashboard();
-        console.log('[App] Loaded demo pet:', pet.name);
-      } catch (e) {
-        showCreatePetUI();
-      }
-    } else {
-      showCreatePetUI();
-    }
-    return;
-  }
+  // OFFLINE MODE: Always use localStorage
+  gameState.setOnline(false);
+  api.isAvailable = false;
   
-  // Check API health
-  try {
-    await api.getHealth();
-    gameState.setOnline(true);
-    console.log('[App] API is online');
-  } catch (error) {
-    console.error('[App] API health check failed:', error);
-    gameState.setOnline(false);
-    showNotification('⚠️ API offline. Some features unavailable.', 'warning');
-  }
+  showNotification('🎮 OFFLINE MODE: Play locally with full pet gameplay!', 'info');
   
-  // Try to load existing pet
-  try {
-    const pet = await api.getPet(gameState.userId);
-    if (pet) {
+  // Try to load saved pet from localStorage
+  const savedPetJson = localStorage.getItem('moltgotchi_pet_demo');
+  if (savedPetJson) {
+    try {
+      const pet = JSON.parse(savedPetJson);
       gameState.setPet(pet);
       renderStatus(pet);
       showPetDashboard();
-      
-      if (gameState.getOnline()) {
-        await refreshLeaderboard().catch(console.error);
-        await refreshBattles().catch(console.error);
-        startAutoRefresh();
-      }
-    } else {
+      console.log('[App] Loaded saved pet:', pet.name);
+    } catch (e) {
+      console.error('[App] Failed to load saved pet:', e);
       showCreatePetUI();
     }
-  } catch (error) {
-    console.error('[App] Failed to load pet:', error);
+  } else {
     showCreatePetUI();
   }
   
-  console.log('[App] Initialization complete');
+  console.log('[App] Initialization complete - offline mode active');
 }
 
 function populateSpeciesDropdown() {
