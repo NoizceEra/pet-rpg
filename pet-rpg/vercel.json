@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "framework": "static",
   "public": "website",
   "cleanUrls": true,
   "trailingSlash": false,
