@@ -4,7 +4,6 @@ scripts/
 ascii/
 storage/
 telegram/
-requirements.txt
 setup.py
 Dockerfile
 docker-compose.yml
