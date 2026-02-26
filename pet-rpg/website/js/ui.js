@@ -94,8 +94,16 @@ function renderPet(pet) {
   DOM.petLevel.textContent = `Level ${pet.level}`;
   DOM.petSpecies.textContent = pet.species;
   
-  // ASCII art sprite (placeholder - would be replaced with actual art)
-  DOM.petSprite.textContent = `🐾 ${pet.species}`;
+  // Display ASCII art sprite
+  if (SPECIES_ASCII[pet.species]) {
+    DOM.petSprite.textContent = SPECIES_ASCII[pet.species];
+    DOM.petSprite.style.fontFamily = 'monospace';
+    DOM.petSprite.style.fontSize = '11px';
+    DOM.petSprite.style.lineHeight = '1.2';
+    DOM.petSprite.style.whiteSpace = 'pre';
+  } else {
+    DOM.petSprite.textContent = `🐾 ${pet.species}`;
+  }
 }
 
 function renderStatus(pet) {

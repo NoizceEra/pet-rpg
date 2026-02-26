@@ -42,6 +42,13 @@ async function initializeApp() {
 
 function populateSpeciesDropdown() {
   const select = DOM.petSpeciesSelect;
+  
+  // Clear existing options (except the default)
+  while (select.children.length > 1) {
+    select.removeChild(select.lastChild);
+  }
+  
+  // Add species options
   SPECIES.forEach(species => {
     const option = document.createElement('option');
     option.value = species;
