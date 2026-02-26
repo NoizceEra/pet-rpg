@@ -27,19 +27,21 @@ const isLocalhost = window.location.hostname === 'localhost' ||
 //    <meta name="moltgotchi:api-url" content="https://...">
 //
 const API_BASE_URL = (() => {
+  // Check for window variable (set before script loads) - HIGHEST PRIORITY
+  if (window.MOLTGOTCHI_API_URL) {
+    console.log('[MoltGotchi] Using window.MOLTGOTCHI_API_URL:', window.MOLTGOTCHI_API_URL);
+    return window.MOLTGOTCHI_API_URL;
+  }
+  
   // Check if running locally
   if (isLocalhost) {
+    console.log('[MoltGotchi] Running locally, using localhost API');
     return 'http://localhost:5000/api';
   }
   
   // Check for environment variable (set by build)
   if (typeof process !== 'undefined' && process.env.VITE_API_URL) {
     return process.env.VITE_API_URL + '/api';
-  }
-  
-  // Check for window variable (set before script loads)
-  if (window.MOLTGOTCHI_API_URL) {
-    return window.MOLTGOTCHI_API_URL;
   }
   
   // Check for meta tag
@@ -50,7 +52,7 @@ const API_BASE_URL = (() => {
   
   // Production fallback: no API URL = run in demo mode
   console.warn('[MoltGotchi] No API URL configured! Running in DEMO mode.');
-  console.warn('[MoltGotchi] Set API URL via: VITE_API_URL env var, window.MOLTGOTCHI_API_URL, or meta tag');
+  console.warn('[MoltGotchi] Set API URL via: window.MOLTGOTCHI_API_URL (highest priority), VITE_API_URL env, or meta tag');
   return null; // null = demo mode (no API calls)
 })();
 
