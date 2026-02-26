@@ -5,12 +5,14 @@ ascii/
 storage/
 telegram/
 requirements.txt
-pyproject.toml
 setup.py
 Dockerfile
 docker-compose.yml
 venv/
-*.py
+test_*.py
+run_tests.py
+quick_test.py
+pyproject.toml
 *.md
 _meta.json
 .env
