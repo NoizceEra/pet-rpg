@@ -17,20 +17,20 @@
     "web3"
   ],
   "category": "gaming",
-  "homepage": "https://moltgotchi.vercel.app",
+  "homepage": "https://pet-rpg-coral.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pet-rpg"
+    "url": "https://github.com/NoizceEra/pet-rpg"
   },
   "documentation": {
     "guide": "SKILL.md",
     "api": "PLATFORM_INTEGRATION.md",
-    "deployment": "WEBSITE_DEPLOYMENT.md"
+    "deployment": "PRODUCTION_LIVE.md"
   },
   "endpoints": {
-    "api": "https://api.moltgotchi.ai",
-    "web": "https://moltgotchi.vercel.app",
-    "health": "https://api.moltgotchi.ai/api/health"
+    "api": "https://moltgotchi-api.onrender.com/api",
+    "web": "https://pet-rpg-coral.vercel.app",
+    "health": "https://moltgotchi-api.onrender.com/api/health"
   },
   "features": [
     "Pet creation and lifecycle management",
@@ -67,8 +67,8 @@
   "installation": {
     "method": "direct_rest_api",
     "setup": "No installation needed. All features accessible via REST API.",
-    "apiBase": "https://api.moltgotchi.ai",
-    "webApp": "https://moltgotchi.vercel.app"
+    "apiBase": "https://moltgotchi-api.onrender.com/api",
+    "webApp": "https://pet-rpg-coral.vercel.app"
   },
   "integrations": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "platform": "Web",
-      "description": "Built-in dashboard at https://moltgotchi.vercel.app"
+      "description": "Built-in dashboard at https://pet-rpg-coral.vercel.app"
     },
     {
       "platform": "CLI",
@@ -130,10 +130,10 @@
     "corsPolicy": "Origins restricted in production"
   },
   "support": {
-    "documentation": "https://moltgotchi.vercel.app/docs",
-    "github": "https://github.com/yourusername/pet-rpg",
-    "issues": "GitHub Issues",
-    "community": "Discord/Telegram"
+    "documentation": "https://github.com/NoizceEra/pet-rpg",
+    "github": "https://github.com/NoizceEra/pet-rpg",
+    "issues": "https://github.com/NoizceEra/pet-rpg/issues",
+    "website": "https://pet-rpg-coral.vercel.app"
   },
   "status": "production-ready",
   "releaseDate": "2026-02-25",
