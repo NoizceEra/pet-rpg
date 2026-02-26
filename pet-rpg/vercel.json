@@ -1,13 +1,4 @@
 {
   "version": 2,
-  "framework": "static",
-  "public": "website",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "public": "website"
 }
