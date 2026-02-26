@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Static site'",
   "public": "website",
   "cleanUrls": true,
   "trailingSlash": false,
